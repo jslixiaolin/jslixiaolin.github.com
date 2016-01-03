@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.lixiaolin.me/guestbook/index.html</loc>
+    <lastmod>2016-01-02T08:00:30.961Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2015/12/31/test/</loc>
+    <lastmod>2016-01-02T07:24:41.600Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/about/index.html</loc>
+    <lastmod>2016-01-02T06:51:05.086Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2016/01/01/hello-world/</loc>
+    <lastmod>2016-01-01T14:43:09.937Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/categories/index.html</loc>
+    <lastmod>2016-01-01T13:53:24.795Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/tags/index.html</loc>
+    <lastmod>2016-01-01T13:43:18.903Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2015/12/31/todo-test/</loc>
+    <lastmod>2015-12-31T07:41:52.228Z</lastmod>
+  </url>
+  
+</urlset>
