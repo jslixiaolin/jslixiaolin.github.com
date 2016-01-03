@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/03/algorithm-merge-sorting/</loc>
+    <lastmod>2016-01-03T04:25:29.457Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2016/01/03/login-fail-lock/</loc>
+    <lastmod>2016-01-03T04:17:41.665Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/about/index.html</loc>
-    <lastmod>2016-01-03T02:21:13.372Z</lastmod>
+    <lastmod>2016-01-03T03:46:47.060Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.lixiaolin.me/guestbook/index.html</loc>
     <lastmod>2016-01-02T08:00:30.961Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2015/12/31/test/</loc>
-    <lastmod>2016-01-02T07:24:41.600Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/01/hello-world/</loc>
-    <lastmod>2016-01-01T14:43:09.937Z</lastmod>
   </url>
   
   <url>
@@ -29,11 +29,6 @@
   <url>
     <loc>http://www.lixiaolin.me/tags/index.html</loc>
     <lastmod>2016-01-01T13:43:18.903Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2015/12/31/todo-test/</loc>
-    <lastmod>2015-12-31T07:41:52.228Z</lastmod>
   </url>
   
 </urlset>
