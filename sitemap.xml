@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/03/oracle-install/</loc>
+    <lastmod>2016-01-04T08:46:17.350Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/01/03/oracle-procedure-job/</loc>
     <lastmod>2016-01-03T15:01:04.264Z</lastmod>
   </url>
@@ -24,11 +29,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/03/js-select-city/</loc>
     <lastmod>2016-01-03T14:59:39.420Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/03/oracle-install/</loc>
-    <lastmod>2016-01-03T14:58:36.388Z</lastmod>
   </url>
   
   <url>
