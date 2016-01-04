@@ -35,6 +35,8 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
+  <meta name="keywords" content="Algorithm,Binary-Tree," />
+
 
 
 
@@ -57,7 +59,7 @@
 <meta property="og:url" content="http://www.lixiaolin.me/2016/01/03/algorithm-binary-tree/index.html">
 <meta property="og:site_name" content="LORRIN'S BLOG">
 <meta property="og:description" content="####一、求二叉树高度12345678910111213/**   * 求二叉树高度   * @param root   * @return   */  public int getHeight(Node root)&amp;#123;    if(root==null)&amp;#123;      return 0;    &amp;#125;    int l=getHeight(root.leftChild);">
-<meta property="og:updated_time" content="2016-01-03T14:50:22.944Z">
+<meta property="og:updated_time" content="2016-01-03T15:00:28.473Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二叉树的常用操作">
 <meta name="twitter:description" content="####一、求二叉树高度12345678910111213/**   * 求二叉树高度   * @param root   * @return   */  public int getHeight(Node root)&amp;#123;    if(root==null)&amp;#123;      return 0;    &amp;#125;    int l=getHeight(root.leftChild);">
@@ -279,7 +281,8 @@
       
 
       
-        <span itemprop="articleBody"><p>####<strong>一、求二叉树高度</strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line">   * 求二叉树高度</span><br><span class="line">   * @param root</span><br><span class="line">   * @return</span><br><span class="line">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getHeight</span><span class="params">(Node root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root==null)&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> l=getHeight(root.leftChild);</span><br><span class="line">    <span class="keyword">int</span> r=getHeight(root.rightChild);</span><br><span class="line">    <span class="keyword">return</span> l&gt;r?l+<span class="number">1</span>:r+<span class="number">1</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
+        <span itemprop="articleBody"><a id="more"></a>
+<p>####<strong>一、求二叉树高度</strong><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line">   * 求二叉树高度</span><br><span class="line">   * @param root</span><br><span class="line">   * @return</span><br><span class="line">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getHeight</span><span class="params">(Node root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root==null)&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> l=getHeight(root.leftChild);</span><br><span class="line">    <span class="keyword">int</span> r=getHeight(root.rightChild);</span><br><span class="line">    <span class="keyword">return</span> l&gt;r?l+<span class="number">1</span>:r+<span class="number">1</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
 <p>####<strong>二、求二叉树结点总数</strong></p>
 <figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line">   * 求二叉树结点总数</span><br><span class="line">   * <span class="doctag">@param</span> root</span><br><span class="line">   * <span class="doctag">@return</span></span><br><span class="line">   */</span></span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">int</span> <span class="title">getSize</span><span class="params">(Node root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root==<span class="keyword">null</span>)&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>+getSize(root.leftChild)+getSize(root.rightChild);</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 <p>####<strong>二、递归交换左右子树</strong></p>
@@ -295,6 +298,14 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Algorithm/" rel="tag">#Algorithm</a>
+          
+            <a href="/tags/Binary-Tree/" rel="tag">#Binary-Tree</a>
+          
+        </div>
       
 
       
@@ -420,7 +431,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>

@@ -53,24 +53,18 @@
 
 
 
-<meta name="description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，如下图所示在界面中是这样的
-对于这个需求我们可以利用存储过程和job来实现。新建一个存储过程对电价生效标志进行更新，然后在job中每天定时执行这个存储过程sql语句如下:
-1234567891011121314--create p">
+<meta name="description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Oracle存储过程和job在项目中的应用">
 <meta property="og:url" content="http://www.lixiaolin.me/2016/01/03/oracle-procedure-job/index.html">
 <meta property="og:site_name" content="LORRIN'S BLOG">
-<meta property="og:description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，如下图所示在界面中是这样的
-对于这个需求我们可以利用存储过程和job来实现。新建一个存储过程对电价生效标志进行更新，然后在job中每天定时执行这个存储过程sql语句如下:
-1234567891011121314--create p">
+<meta property="og:description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，">
 <meta property="og:image" content="http://img.blog.csdn.net/20150817151002706">
 <meta property="og:image" content="http://img.blog.csdn.net/20150817151033155">
-<meta property="og:updated_time" content="2016-01-03T14:56:23.367Z">
+<meta property="og:updated_time" content="2016-01-03T15:01:04.264Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Oracle存储过程和job在项目中的应用">
-<meta name="twitter:description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，如下图所示在界面中是这样的
-对于这个需求我们可以利用存储过程和job来实现。新建一个存储过程对电价生效标志进行更新，然后在job中每天定时执行这个存储过程sql语句如下:
-1234567891011121314--create p">
+<meta name="twitter:description" content="最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，">
 
 
 
@@ -289,7 +283,7 @@
       
 
       
-        <span itemprop="articleBody"><p>最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，如下图所示<br><img src="http://img.blog.csdn.net/20150817151002706" alt="这里写图片描述"><br>在界面中是这样的<br><img src="http://img.blog.csdn.net/20150817151033155" alt="这里写图片描述"></p>
+        <span itemprop="articleBody"><p>最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效，<a id="more"></a><br>如下图所示<br><img src="http://img.blog.csdn.net/20150817151002706" alt="这里写图片描述"><br>在界面中是这样的<br><img src="http://img.blog.csdn.net/20150817151033155" alt="这里写图片描述"></p>
 <p>对于这个需求我们可以利用存储过程和job来实现。<br>新建一个存储过程对电价生效标志进行更新，然后在job中每天定时执行这个存储过程<br>sql语句如下:</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--create procedure</span></span><br><span class="line"><span class="operator"><span class="keyword">create</span> <span class="keyword">or</span> <span class="keyword">replace</span> <span class="keyword">procedure</span> p_carstatus <span class="keyword">as</span></span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line"> <span class="keyword">update</span> e_price <span class="keyword">e</span> <span class="keyword">set</span> <span class="keyword">e</span>.release_flag=<span class="string">'是'</span> <span class="keyword">where</span> <span class="keyword">sysdate</span> &gt; <span class="keyword">e</span>.release_date;</span></span><br><span class="line"><span class="operator"><span class="keyword">COMMIT</span>;</span></span><br><span class="line"><span class="operator"><span class="keyword">end</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--create job</span></span><br><span class="line"><span class="operator"><span class="keyword">declare</span></span><br><span class="line">jobno   <span class="built_in">number</span>;</span></span><br><span class="line"><span class="operator"><span class="keyword">begin</span></span><br><span class="line">dbms_job.submit(:jobno,<span class="string">'p_carstatus;'</span>,<span class="keyword">sysdate</span>,<span class="string">'trunc(sysdate)+1'</span>);</span><span class="comment">--每天凌晨，注意不要漏掉 jobno前面的:</span></span><br><span class="line"><span class="operator"><span class="keyword">commit</span>;</span></span><br><span class="line"><span class="operator"><span class="keyword">end</span>;</span></span><br></pre></td></tr></table></figure>
 <p>这样就能实现定时对电价生效标志进行更新了，以上只是一个例子，存储过程和job结合使用的例子还有很多。</p>
@@ -427,7 +421,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">9</span>
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
