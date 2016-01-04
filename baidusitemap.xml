@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.lixiaolin.me/2016/01/03/oracle-install/</loc>
-    <lastmod>2016-01-04T08:46:17.350Z</lastmod>
+    <lastmod>2016-01-04T13:26:15.898Z</lastmod>
     <data>
         <display>
         <title>64位电脑上安装oracle和plsql</title>
@@ -21,8 +21,27 @@
 
     
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/03/algorithm-binary-tree/</loc>
+    <lastmod>2016-01-04T13:20:51.181Z</lastmod>
+    <data>
+        <display>
+        <title>二叉树的常用操作</title>
+        <pubTime>2016-01-03T14:49:54.000Z</pubTime>
+        
+        <tag>Algorithm</tag>
+         
+        <tag>Binary-Tree</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.lixiaolin.me/2016/01/03/oracle-procedure-job/</loc>
-    <lastmod>2016-01-03T15:01:04.264Z</lastmod>
+    <lastmod>2016-01-04T13:10:12.296Z</lastmod>
     <data>
         <display>
         <title>Oracle存储过程和job在项目中的应用</title>
@@ -46,25 +65,6 @@
         <display>
         <title>非递归实现二叉树的层次遍历</title>
         <pubTime>2016-01-03T14:51:39.000Z</pubTime>
-        
-        <tag>Algorithm</tag>
-         
-        <tag>Binary-Tree</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/03/algorithm-binary-tree/</loc>
-    <lastmod>2016-01-03T15:00:28.473Z</lastmod>
-    <data>
-        <display>
-        <title>二叉树的常用操作</title>
-        <pubTime>2016-01-03T14:49:54.000Z</pubTime>
         
         <tag>Algorithm</tag>
          
