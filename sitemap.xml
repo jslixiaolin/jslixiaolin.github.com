@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/05/java-string-demo/</loc>
+    <lastmod>2016-01-05T11:14:03.033Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2016/01/05/servletcontext-servletconfig-diff/</loc>
+    <lastmod>2016-01-05T11:13:40.848Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/01/05/mysql-install/</loc>
-    <lastmod>2016-01-05T09:41:30.251Z</lastmod>
+    <lastmod>2016-01-05T09:42:14.380Z</lastmod>
   </url>
   
   <url>
@@ -37,11 +47,6 @@
   </url>
   
   <url>
-    <loc>http://www.lixiaolin.me/2016/01/05/servletcontext-servletconfig-diff/</loc>
-    <lastmod>2016-01-05T08:23:20.211Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.lixiaolin.me/2016/01/05/properties-coding/</loc>
     <lastmod>2016-01-05T08:21:54.249Z</lastmod>
   </url>
@@ -49,11 +54,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/05/jsp-coding/</loc>
     <lastmod>2016-01-05T08:20:16.617Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/05/java-string-demo/</loc>
-    <lastmod>2016-01-05T08:18:29.227Z</lastmod>
   </url>
   
   <url>

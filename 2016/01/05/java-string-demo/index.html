@@ -53,19 +53,16 @@
 
 
 
-<meta name="description" content="先来看一个例子，代码如下：
-1234567891011121314151.public class Test &amp;#123;    public static void main(String[] args) &amp;#123;        String str = &quot;abc&quot;;        String str1 = &quot;abc&quot;;        String str2 = new String(&quot;a">
+<meta name="description" content="先来看一个例子，代码如下：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java String的经典问题(new String() ,String )">
 <meta property="og:url" content="http://www.lixiaolin.me/2016/01/05/java-string-demo/index.html">
 <meta property="og:site_name" content="LORRIN'S BLOG">
-<meta property="og:description" content="先来看一个例子，代码如下：
-1234567891011121314151.public class Test &amp;#123;    public static void main(String[] args) &amp;#123;        String str = &quot;abc&quot;;        String str1 = &quot;abc&quot;;        String str2 = new String(&quot;a">
-<meta property="og:updated_time" content="2016-01-05T08:18:29.227Z">
+<meta property="og:description" content="先来看一个例子，代码如下：">
+<meta property="og:updated_time" content="2016-01-05T11:14:03.033Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java String的经典问题(new String() ,String )">
-<meta name="twitter:description" content="先来看一个例子，代码如下：
-1234567891011121314151.public class Test &amp;#123;    public static void main(String[] args) &amp;#123;        String str = &quot;abc&quot;;        String str1 = &quot;abc&quot;;        String str2 = new String(&quot;a">
+<meta name="twitter:description" content="先来看一个例子，代码如下：">
 
 
 
@@ -284,7 +281,7 @@
       
 
       
-        <span itemprop="articleBody"><p>先来看一个例子，代码如下：</p>
+        <span itemprop="articleBody"><p>先来看一个例子，代码如下：<br><a id="more"></a></p>
 <figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.public class Test &#123;</span><br><span class="line">    public static void main(<span class="keyword">String[] </span>args) &#123;</span><br><span class="line">        <span class="keyword">String </span><span class="keyword">str </span>= <span class="string">"abc"</span><span class="comment">;</span></span><br><span class="line">        <span class="keyword">String </span><span class="keyword">str1 </span>= <span class="string">"abc"</span><span class="comment">;</span></span><br><span class="line">        <span class="keyword">String </span><span class="keyword">str2 </span>= new <span class="keyword">String("abc");</span><br><span class="line"></span>        System.out.println(<span class="keyword">str </span>== <span class="keyword">str1);</span><br><span class="line"></span>        System.out.println(<span class="keyword">str1 </span>== <span class="string">"abc"</span>)<span class="comment">;</span></span><br><span class="line">        System.out.println(<span class="keyword">str2 </span>== <span class="string">"abc"</span>)<span class="comment">;</span></span><br><span class="line">        System.out.println(<span class="keyword">str1 </span>== <span class="keyword">str2);</span><br><span class="line"></span>        System.out.println(<span class="keyword">str1.equals(str2));</span><br><span class="line"></span>        System.out.println(<span class="keyword">str1 </span>== <span class="keyword">str2.intern());</span><br><span class="line"></span>        System.out.println(<span class="keyword">str2 </span>== <span class="keyword">str2.intern());</span><br><span class="line"></span>        System.out.println(<span class="keyword">str1.hashCode() </span>== <span class="keyword">str2.hashCode());</span><br><span class="line"></span>   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>如果您能对这8个输出结果直接判断出来，下面的分析就不用看了。但是我想还是有很多人对这个String对象这个问题只是表面的理解，下面就来分析一下Java语言String类和对象及其运行机制的问题。<br>    做个基础的说明，堆(heap)内存和栈(Stack)内存的问题。堆和栈的数据结构这里就不解释了。Java语言使用内存的时候，栈内存主要保存以下内容：基本数据类型和对象的引用，而堆内存存储对象，栈内存的速度要快于堆内存。总结成一句话就是：引用在栈而对象在堆。<br>    Java中的比较有两种，是==和equals()方法，equals()是Object类的方法，定义在Object类中的equals()方法是如下实现的：<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[java] view plaincopy</span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">boolean</span> <span class="title">equals</span><span class="params">(Object obj)</span></span>&#123;</span><br><span class="line">       <span class="keyword">return</span> (<span class="keyword">this</span>==obj);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p> String类重写了equals()方法，改变了这些类型对象相等的原则，即判断对象是否相等依据的原则为判断二者的内容是否相等。<br>              了解以上内容后我们来说说String，String类的本质是字符数组char[]，其次String类是final的，是不可被继承的，这点可能被大多数人忽略，再次String是特殊的封装类型，使用String时可以直接赋值，也可以用new来创建对象，但是这二者的实现机制是不同的。还有一个String池的概念，Java运行时维护一个String池，池中的String对象不可重复，没有创建，有则作罢。String池不属于堆和栈，而是属于常量池。下面分析上方代码的真正含义<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[html] view plaincopy</span><br><span class="line"><span class="keyword">String </span><span class="keyword">str </span>= <span class="string">"abc"</span><span class="comment">;</span></span><br><span class="line"><span class="keyword">String </span><span class="keyword">str1= </span><span class="string">"abc"</span><span class="comment">;</span></span><br></pre></td></tr></table></figure></p>
