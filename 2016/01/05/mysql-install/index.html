@@ -1,0 +1,970 @@
+<!doctype html>
+<html class="theme-next   use-motion ">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="MYSQL,SQL," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="LORRIN'S BLOG" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+
+
+
+
+
+
+<meta name="description" content="第一次写博客，正好最近在学习mysql，就由浅入深，先写一遍入门级别的吧：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL安装和SQL语句入门">
+<meta property="og:url" content="http://www.lixiaolin.me/2016/01/05/mysql-install/index.html">
+<meta property="og:site_name" content="LORRIN'S BLOG">
+<meta property="og:description" content="第一次写博客，正好最近在学习mysql，就由浅入深，先写一遍入门级别的吧：">
+<meta property="og:image" content="http://img.blog.csdn.net/20150707151711159">
+<meta property="og:image" content="http://img.blog.csdn.net/20150709113803555">
+<meta property="og:updated_time" content="2016-01-05T08:38:04.420Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MySQL安装和SQL语句入门">
+<meta name="twitter:description" content="第一次写博客，正好最近在学习mysql，就由浅入深，先写一遍入门级别的吧：">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: 'hide',
+    motion: true
+  };
+</script>
+
+  <title> MySQL安装和SQL语句入门 | LORRIN'S BLOG </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?ed5e17b22e98a072a33406fd5bb0d830";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">LORRIN'S BLOG</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Do more,think more</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <form class="site-search-form">
+    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  </form>
+
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'H5Xx1NDxGiXVAGyxHutE','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                MySQL安装和SQL语句入门
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-01-05T16:36:41+08:00" content="2016-01-05">
+              2016-01-05
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/05/mysql-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/05/mysql-install/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+            <span id="/2016/01/05/mysql-install/"class="leancloud_visitors"  data-flag-title="MySQL安装和SQL语句入门">
+              &nbsp; | &nbsp; 阅读次数
+            </span>
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p>第一次写博客，正好最近在学习mysql，就由浅入深，先写一遍入门级别的吧：<br><a id="more"></a></p>
+<h2 id="MySQL_u76F8_u5173_u6982_u5FF5"><a href="#MySQL_u76F8_u5173_u6982_u5FF5" class="headerlink" title="MySQL相关概念"></a>MySQL相关概念</h2><p>  MySQL是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，目前属于 Oracle 旗下公司。MySQL 是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。MySQL 所使用的 SQL 语言是用于访问数据库的最常用标准化语言。<br>  <img src="http://img.blog.csdn.net/20150707151711159" alt="某班级学生信息"></p>
+<p> <strong>表头(head)</strong>:每一列的名称；<br><strong>列(row):</strong> 具有相同数据类型的数据的集合;<br><strong>行(col):</strong> 每一行用来描述某个人/物的具体信息;<br><strong>值(value):</strong> 行的具体信息, 每个值必须与该列的数据类型相同;<br><strong>键(key):</strong> 表中用来识别某个特定的人\物的方法, 键的值在当前列中具有唯一性</p>
+<h2 id="Windows_u4E0BMySQL_u5B89_u88C5_u548C_u914D_u7F6E"><a href="#Windows_u4E0BMySQL_u5B89_u88C5_u548C_u914D_u7F6E" class="headerlink" title="Windows下MySQL安装和配置"></a>Windows下MySQL安装和配置</h2><p>MYSQL安装有两种方式，第一种是直接下载AppServ组合包（百度下载 <a href="http://rj.baidu.com/soft/detail/15668.html?ald），AppServ" target="_blank" rel="external">http://rj.baidu.com/soft/detail/15668.html?ald），AppServ</a> 是 PHP 网页架站工具组合包，作者将一些网络上免费的架站资源重新包装成单一的安装程序，以方便初学者快速完成架站，AppServ 所包含的软件有：Apache、Apache Monitor、PHP、MySQL、phpMyAdmin等。安装完这个后就能直接使用mysql，并且部署好了web开发的基本环境，可谓一举多得。（安装apperv的时候有一点需要注意，默认安装是会在80端口上装Apache的，注意不要与自己电脑上的端口冲突了，可以手动修改使用的端口，改成比如8080）<br>第二种就是直接下载mysql的安装包（<a href="http://www.mysql.com/downloads/），安装过程中基本全部点下一步就好，值得一提的是在到了编码选择的时候选择&quot;utf8&quot;。安装完Mysql后还需装一下Navicat(http://www.navicat.com.cn/download)，navicat是一个可视化的数据库管理工具，下载后可以连接自己的mysql数据库，方便操作。" target="_blank" rel="external">http://www.mysql.com/downloads/），安装过程中基本全部点下一步就好，值得一提的是在到了编码选择的时候选择&quot;utf8&quot;。安装完Mysql后还需装一下Navicat(http://www.navicat.com.cn/download)，navicat是一个可视化的数据库管理工具，下载后可以连接自己的mysql数据库，方便操作。</a><br><strong>不管哪种安装方式，有一点请注意：牢记自己在mysql安装过程中输入的root的密码，后面会用到。</strong></p>
+<p><img src="http://img.blog.csdn.net/20150709113803555" alt="这里写图片描述"></p>
+<p>如上图，安装完navicat之后打开点击左上角的连接，连接名不需要填，在密码栏里输入安装mysql时设置的密码<br>到这里为止，mysql的安装基本就结束了.</p>
+<p><strong>MySQL服务的启动、停止与卸载</strong><br>在 Windows 命令提示符下运行:<br>启动: net start MySQL<br>停止: net stop MySQL<br>卸载: sc delete MySQL</p>
+<h3 id="MySQL_u7684_u57FA_u672C_u6570_u636E_u7C7B_u578B"><a href="#MySQL_u7684_u57FA_u672C_u6570_u636E_u7C7B_u578B" class="headerlink" title="MySQL的基本数据类型"></a>MySQL的基本数据类型</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">类型</th>
+<th style="text-align:right">大小</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">char[length]</td>
+<td style="text-align:right">length字节</td>
+<td style="text-align:center">定长字段，长度为0-255个字节</td>
+</tr>
+<tr>
+<td style="text-align:left">varchar[length]</td>
+<td style="text-align:right">string长度+1字节</td>
+<td style="text-align:center">变长字段，在mysql5.03以前，长度为0-255个字节，在5.0.3以后，最大长度为65535字节。一个utf8字符占3个字节、一个gbk字符占两个字节。</td>
+</tr>
+<tr>
+<td style="text-align:left">tinytext</td>
+<td style="text-align:right">string长度+1字节</td>
+<td style="text-align:center">字符串，长度为0-255个字节</td>
+</tr>
+<tr>
+<td style="text-align:left">text</td>
+<td style="text-align:right">string长度+2字节</td>
+<td style="text-align:center">字符串，最大长度为0-65535个字节</td>
+</tr>
+<tr>
+<td style="text-align:left">mediumtext</td>
+<td style="text-align:right">string长度+3字节</td>
+<td style="text-align:center">字符串，组嗲长度为16777215个字节</td>
+</tr>
+<tr>
+<td style="text-align:left">longtext</td>
+<td style="text-align:right">string长度+4字节</td>
+<td style="text-align:center">字符串，最大长度为4194967295个字节</td>
+</tr>
+<tr>
+<td style="text-align:left">tinyint[length]</td>
+<td style="text-align:right">1字节</td>
+<td style="text-align:center">范围:-128~127或0~255</td>
+</tr>
+<tr>
+<td style="text-align:left">smallint[length]</td>
+<td style="text-align:right">2字节</td>
+</tr>
+<tr>
+<td style="text-align:left">mediumint[length]  3字节</td>
+</tr>
+<tr>
+<td style="text-align:left">int[length]</td>
+<td style="text-align:right">4字节</td>
+</tr>
+<tr>
+<td style="text-align:left">bigint[length]</td>
+<td style="text-align:right">8字节</td>
+</tr>
+<tr>
+<td style="text-align:left">float</td>
+<td style="text-align:right">4字节</td>
+</tr>
+<tr>
+<td style="text-align:left">double[length,decimals]</td>
+<td style="text-align:right">8字节</td>
+<td style="text-align:center">运行固定的小数点</td>
+</tr>
+<tr>
+<td style="text-align:left">decimal[length,decimals]</td>
+<td style="text-align:right">length+1字节或length+2字节</td>
+</tr>
+<tr>
+<td style="text-align:left">date</td>
+<td style="text-align:right">3字节</td>
+<td style="text-align:center">采用YYYY-MM-DD格式</td>
+</tr>
+<tr>
+<td style="text-align:left">datetime</td>
+<td style="text-align:right">8字节</td>
+<td style="text-align:center">采用YYYY-MM-DD HH:mm:SS格式</td>
+</tr>
+<tr>
+<td style="text-align:left">timestamp</td>
+<td style="text-align:right">4字节</td>
+<td style="text-align:center">采用YYYYMMDDHHmmSS格式</td>
+</tr>
+<tr>
+<td style="text-align:left">time</td>
+<td style="text-align:right">3字节</td>
+<td style="text-align:center">采用HH:MM:SS格式</td>
+</tr>
+<tr>
+<td style="text-align:left">enum v1或2字节</td>
+<td style="text-align:right">枚举类型</td>
+</tr>
+<tr>
+<td style="text-align:left">set</td>
+<td style="text-align:right">1、2、3、4或8字节</td>
+<td style="text-align:center">与enum一样，只不过每一列可以具有多个可能的值</td>
+</tr>
+<tr>
+<td style="text-align:left">blob</td>
+<td style="text-align:right">是text的一个变体。</td>
+<td style="text-align:center">允许存储二进制文件，还可用于某些加密数据。</td>
+</tr>
+</tbody>
+</table>
+<p>###常用SQL语句<br><strong>一、数据库创建</strong><br>1.创建数据库<br>    create database [if not exists] db_name [character set xxx] [collate xxx]<br>    <em>创建一个名称为mydb1的数据库。<br>      create database mydb1;
+    </em>创建一个使用utf8字符集的mydb2数据库。<br>      create database mydb2 character set utf8;<br>    *创建一个使用utf8字符集，并带校对规则的mydb3数据库。<br>      create database mydb3 character set utf8 collate utf8_bin ;<br>  2.查看数据库<br>    show databases;查看所有数据库<br>    show create database db_name; 查看数据库的创建方式<br>  3.修改数据库<br>    alter database db_name [character set xxx] [collate xxxx]<br>  4.删除数据库<br>    drop database [if exists] db_name;<br>  5.使用数据库<br>    切换数据库 use db_name;<br>    查看当前使用的数据库 select database();</p>
+<p><strong>二、表</strong><br>1、创建表<br>      create table tab_name(<br>        field1 type,<br>        field2 type,<br>        …<br>        fieldn type<br>       *创建一个员工表employee<br>        create table employee(<br>          id int primary key auto_increment ,<br>          name varchar(20),<br>          gender bit default 1,<br>          birthday date,<br>          entry_date date,<br>          job varchar(20),<br>          salary double,<br>          resume text<br>        );</p>
+<p>2、查看表信息<br>desc tab_name 查看表结构<br>show tables 查看当前数据库中的所有的表<br>show create table tab_name  查看当前数据库表建表语句</p>
+<p>3、修改表结构<br>        (1)增加一列<br>          alter table tab_name add [column] 列名 类型;<br>        (2)修改一列类型<br>          alter table tab_name modify 列名 类型;<br>        (3)修改列名<br>          alter table tab_name change [column] 列名 新列名 类型;<br>        (4)删除一列<br>          alter table tab_name drop [column] 列名;<br>        (5)修改表名<br>          rename table 表名 to 新表名;<br>        (6)修该表所用的字符集<br>          alter table student character set utf8;<br>4、删除表<br>        drop table tab_name;</p>
+<p><strong>三、表记录</strong><br>  1、增加一条记录insert<br>    insert into tab_name (field1,filed2,…….) values (value1,value2,…….);<br>    <em>插入的数据应与字段的数据类型相同。
+    </em>数据的大小应在列的规定范围内，例如：不能将一个长度为80的字符串加入到长度为40的列中。<br>    <em>在values中列出的数据位置必须与被加入的列的排列位置相对应。
+    </em>字符和日期型数据应包含在单引号中’zhang’ ‘2013-04-20’<br>    <em>插入空值：不指定某列的值或insert into table value(null)，则该列取空值。
+    </em>如果要插入所有字段可以省写列列表，直接按表中字段顺序写值列表insert into tab_name values(value1,value2,……);<br>    比如：使用insert语句向表中插入三个员工的信息。<br>    insert into emp (name,birthday,entry_date,job,salary) values (‘张飞’,’1990-09-09’,’2000-01-01’,’打手’,999);</p>
+<p>   2、修改表记录<br>      update tab_name set field1=value1,field2=value2,……[where 语句]<br>将姓名为’ls’的员工薪水修改为4000元,job改为ccc。<br>        update emp set salary=4000,job=’ccc’ where name=’zs’</p>
+<p>3、删除表操作<br>      delete from tab_name [where ….]<br>      <em>如果不跟where语句则删除整张表中的数据
+      </em>delete只能用来删除一行记录，不能值删除一行记录中的某一列值（这是update操作）。<br>      <strong>*delete语句只能删除表中的内容，不能删除表本身，想要删除表，用drop</strong><br>      <em>同insert和update一样，从一个表中删除记录将引起其它表的参照完整性问题，在修改数据库数据时，头脑中应该始终不要忘记这个潜在的问题。<br>      **</em>TRUNCATE TABLE也可以删除表中的所有数据，词语句首先摧毁表，再新建表。此种方式删除的数据不能在事务中恢复。<strong><br>        删除表中名称为’zs’的记录。<br>        delete from emp where name=’黄忠’;<br>        删除表中所有记录。<br>        delete from emp;<br>        使用truncate删除表中记录。<br>        truncate table emp;
+        </strong>所以如果需要删除整张表的数据，如果记录很多，那么使用TRUNCATE删除将会有比较高的效率**</p>
+<p>4、select操作<br>    select [distinct] <em>|field1，field2，……   from tab_name 其中from指定从哪张表筛选，</em>表示查找所有列，也可以指定一个列列表明确指定要查找的列，distinct用来剔除重复行。<br>          查询表中所有学生的信息<br>          select <em> from exam;<br>          查询表中所有学生的姓名和对应的英语成绩。<br>          select name,english from exam;<br>          过滤表中重复数据。<br>          select distinct english from exam;<br>          distinct 对于查询时去掉重复的记录特别有效<br>    select 也可以使用表达式，并且可以使用 as 别名<br>          在所有学生分数上加10分特长分显示。<br>          select name,english+10,chinese+10,math+10 from exam;<br>          统计每个学生的总分。<br>          select name,english+chinese+math from exam;<br>          使用别名表示学生总分。<br>          select name,english+chinese+math as 总成绩 from exam;<br>          select name,english+chinese+math 总成绩 from exam;<br>          select name english from exam;<br>    <strong>使用where子句，进行过滤查询</strong><br>          查询姓名为XXX的学生成绩<br>          select </em> from exam where name=’张飞’;<br>          查询英语成绩大于90分的同学<br>          select name,english from exam where english&gt;90;<br>          查询总分大于200分的所有同学<br>          select name,math+english+chinese as 总成绩 from exam where math+english+chinese&gt;200 ;<br>          where字句中可以使用：<br>              比较运算符：</p>
+<pre><code>&gt; &lt; &gt;= &lt;= &lt;&gt;
+between 10 and 20 值在10到20之间
+in(10,20,3)值是10或20或30
+like &apos;张pattern&apos; pattern可以是%或者_，如果是%则表示任意多字符，
+</code></pre><p>*逻辑运算符<br>                                     在多个条件直接可以使用逻辑运算符 and or not</p>
+<p>  查询英语分数在 80－100之间的同学。<br>    select name ,english from exam where english between 80 and 100;<br>  查询数学分数为75,76,77的同学。<br>    select name ,math from exam where math in (75,76,77);<br>  查询所有姓张的学生成绩。<br>    select <em> from exam where name like ‘张%’;<br>  查询数学分&gt;70，语文分&gt;80的同学。<br>    select name from exam where math&gt;70 and chinese &gt;80;<br>  查找缺考数学的学生的姓名<br>    select name from exam where math is null;<br><strong>Order by 指定排序的列，排序的列即可是表中的列名，也可以是select 语句后指定的别名。</strong><br>          Asc 升序、Desc 降序，其中asc为默认值<br>          ORDER BY 子句应位于SELECT语句的结尾。<br>          对数学成绩排序后输出。<br>          select </em> from exam order by math;<br>          对总分排序按从高到低的顺序输出<br>          select name ,(ifnull(math,0)+ifnull(chinese,0)+ifnull(english,0)) 总成绩 from exam order by 总成绩 desc;<br>          对姓张的学生成绩排序输出<br>          select name ,(ifnull(math,0)+ifnull(chinese,0)+ifnull(english,0)) 总成绩 from exam where name like ‘张%’ order by 总成绩 desc;<br>  <strong>注意：这里使用了ifnull()函数，ifnull(math,0)表示如果math为null的话就用0代替math</strong><br>    今天先写到这里，关于聚合函数等等的一些操作过两天有空再写~</p>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/MYSQL/" rel="tag">#MYSQL</a>
+          
+            <a href="/tags/SQL/" rel="tag">#SQL</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/01/05/sql-query-all/" rel="next" title="查询选修全部课程的学生姓名和所属单位">
+                <i class="fa fa-chevron-left"></i> 查询选修全部课程的学生姓名和所属单位
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+        </div>
+
+        
+
+
+        
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/01/05/mysql-install/"
+           data-title="MySQL安装和SQL语句入门" data-url="http://www.lixiaolin.me/2016/01/05/mysql-install/">
+      </div>
+    
+  </div>
+
+
+      </div>
+
+      
+        
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="/images/logo.jpg" alt="Lorrin" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Lorrin</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">LORRIN的技术博客</p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">24</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-name">分类</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">18</span>
+              <span class="site-state-item-name">标签</span>
+              </a>
+          </div>
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/jslixiaolin" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> github
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/3933902283" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> weibo
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/li-xiao-lin-4" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> zhihu
+                  
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#MySQL_u76F8_u5173_u6982_u5FF5"><span class="nav-number">1.</span> <span class="nav-text">MySQL相关概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows_u4E0BMySQL_u5B89_u88C5_u548C_u914D_u7F6E"><span class="nav-number">2.</span> <span class="nav-text">Windows下MySQL安装和配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL_u7684_u57FA_u672C_u6570_u636E_u7C7B_u578B"><span class="nav-number">2.1.</span> <span class="nav-text">MySQL的基本数据类型</span></a></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+      
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="icon-next-heart fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lorrin</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+
+  
+    
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lorrin"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
+
+
+    
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
+
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    motionMiddleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+      if (CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+  
+  
+
+  
+  
+
+  
+     <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+<script>AV.initialize("6MqGf5W1Bz5Wi8k3JjxfoIAt-gzGzoHsz", "UgLqNab6QJTxg39gjxmU5jWL");</script>
+<script>
+function showTime(Counter) {
+  var query = new AV.Query(Counter);
+  $(".leancloud_visitors").each(function() {
+    var url = $(this).attr("id").trim();
+    query.equalTo("url", url);
+    query.find({
+      success: function(results) {
+        if (results.length == 0) {
+          var content = $(document.getElementById(url)).text() + ': 0';
+          $(document.getElementById(url)).text(content);
+          return;
+        }
+        for (var i = 0; i < results.length; i++) {
+          var object = results[i];
+          var content = $(document.getElementById(url)).text() + ': ' + object.get('time');
+          $(document.getElementById(url)).text(content);
+        }
+      },
+      error: function(object, error) {
+        console.log("Error: " + error.code + " " + error.message);
+      }
+    });
+
+  });
+}
+
+function addCount(Counter) {
+  var Counter = AV.Object.extend("Counter");
+  url = $(".leancloud_visitors").attr('id').trim();
+  title = $(".leancloud_visitors").attr('data-flag-title').trim();
+  var query = new AV.Query(Counter);
+  query.equalTo("url", url);
+  query.find({
+    success: function(results) {
+      if (results.length > 0) {
+        var counter = results[0];
+        counter.fetchWhenSave(true);
+        counter.increment("time");
+        counter.save(null, {
+          success: function(counter) {
+            var content = $(document.getElementById(url)).text() + ': ' + counter.get('time');
+            $(document.getElementById(url)).text(content);
+          },
+          error: function(counter, error) {
+            console.log('Failed to save Visitor num, with error message: ' + error.message);
+          }
+        });
+      } else {
+        var newcounter = new Counter();
+        newcounter.set("title", title);
+        newcounter.set("url", url);
+        newcounter.set("time", 1);
+        newcounter.save(null, {
+          success: function(newcounter) {
+              console.log("newcounter.get('time')="+newcounter.get('time'));
+            var content = $(document.getElementById(url)).text() + ': ' + newcounter.get('time');
+            $(document.getElementById(url)).text(content);
+          },
+          error: function(newcounter, error) {
+            console.log('Failed to create');
+          }
+        });
+      }
+    },
+    error: function(error) {
+      console.log('Error:' + error.code + " " + error.message);
+    }
+  });
+}
+$(function() {
+  var Counter = AV.Object.extend("Counter");
+  if ($('.leancloud_visitors').length == 1) {
+    addCount(Counter);
+  } else if ($('.post-title-link').length > 1) {
+    showTime(Counter);
+  }
+});
+</script>
+
+  
+
+</body>
+</html>
