@@ -53,16 +53,16 @@
 
 
 
-<meta name="description" content="range()函数，用来产生整数序列，可以指定步长，这样就能很方便了。">
+<meta name="description" content="range()&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x7528;&amp;#x6765;&amp;#x4EA7;&amp;#x751F;&amp;#x6574;&amp;#x6570;&amp;#x5E8F;&amp;#x5217;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5B9A;&amp;#x6B65;&amp;#x957F;&amp;#xFF0C;&amp;#x8FD9;&amp;#x6837;&amp;#x5C31;&amp;#x80FD;&amp;#x5F88;&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python中range函数的使用.">
 <meta property="og:url" content="http://www.lixiaolin.me/2016/01/05/python-func-range/index.html">
 <meta property="og:site_name" content="LORRIN'S BLOG">
-<meta property="og:description" content="range()函数，用来产生整数序列，可以指定步长，这样就能很方便了。">
+<meta property="og:description" content="range()&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x7528;&amp;#x6765;&amp;#x4EA7;&amp;#x751F;&amp;#x6574;&amp;#x6570;&amp;#x5E8F;&amp;#x5217;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5B9A;&amp;#x6B65;&amp;#x957F;&amp;#xFF0C;&amp;#x8FD9;&amp;#x6837;&amp;#x5C31;&amp;#x80FD;&amp;#x5F88;&amp;">
 <meta property="og:updated_time" content="2016-01-05T08:28:24.637Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python中range函数的使用.">
-<meta name="twitter:description" content="range()函数，用来产生整数序列，可以指定步长，这样就能很方便了。">
+<meta name="twitter:description" content="range()&amp;#x51FD;&amp;#x6570;&amp;#xFF0C;&amp;#x7528;&amp;#x6765;&amp;#x4EA7;&amp;#x751F;&amp;#x6574;&amp;#x6570;&amp;#x5E8F;&amp;#x5217;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x6307;&amp;#x5B9A;&amp;#x6B65;&amp;#x957F;&amp;#xFF0C;&amp;#x8FD9;&amp;#x6837;&amp;#x5C31;&amp;#x80FD;&amp;#x5F88;&amp;">
 
 
 
@@ -281,11 +281,11 @@
       
 
       
-        <span itemprop="articleBody"><p>range()函数，用来产生整数序列，可以指定步长，这样就能很方便了。<br><a id="more"></a><br>参数说明：<br>range(start， end， scan):<br>start：计数从start开始，默认为0，range(2)=range(0,2)<br>end： 计数到end结束  list(range(2))为[0,1]  注意包左不包右！<br>scan:  计数的步长，默认为1，可以指定   比如range(0,4,2)</p>
-<p>加入现在需要构造一个1, 3, 5, 7, …, 99的列表，可以通过循环实现</p>
+        <span itemprop="articleBody"><p>range()&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x4EA7;&#x751F;&#x6574;&#x6570;&#x5E8F;&#x5217;&#xFF0C;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x6B65;&#x957F;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x80FD;&#x5F88;&#x65B9;&#x4FBF;&#x4E86;&#x3002;<br><a id="more"></a><br>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;<br>range(start&#xFF0C; end&#xFF0C; scan):<br>start&#xFF1A;&#x8BA1;&#x6570;&#x4ECE;start&#x5F00;&#x59CB;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;0&#xFF0C;range(2)=range(0,2)<br>end&#xFF1A; &#x8BA1;&#x6570;&#x5230;end&#x7ED3;&#x675F;  list(range(2))&#x4E3A;[0,1]  &#x6CE8;&#x610F;&#x5305;&#x5DE6;&#x4E0D;&#x5305;&#x53F3;&#xFF01;<br>scan:  &#x8BA1;&#x6570;&#x7684;&#x6B65;&#x957F;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;1&#xFF0C;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;   &#x6BD4;&#x5982;range(0,4,2)</p>
+<p>&#x52A0;&#x5165;&#x73B0;&#x5728;&#x9700;&#x8981;&#x6784;&#x9020;&#x4E00;&#x4E2A;1, 3, 5, 7, &#x2026;, 99&#x7684;&#x5217;&#x8868;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5FAA;&#x73AF;&#x5B9E;&#x73B0;</p>
 <figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">L</span> = []</span><br><span class="line"><span class="keyword">n</span> = 1</span><br><span class="line"><span class="keyword">while</span> <span class="keyword">n</span> &lt;= 99:</span><br><span class="line">    <span class="keyword">L</span>.<span class="keyword">append</span>(<span class="keyword">n</span>)</span><br><span class="line">    <span class="keyword">n</span> = <span class="keyword">n</span> + 2</span><br></pre></td></tr></table></figure>
-<p>当采用range就一行代码可以搞定</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#奇数序列</span></span><br><span class="line"><span class="built_in">list</span>(range(<span class="number">1</span>,<span class="number">100</span>,<span class="number">2</span>))</span><br><span class="line"><span class="preprocessor">#偶数序列</span></span><br><span class="line"><span class="built_in">list</span>(range(<span class="number">0</span>,<span class="number">100</span>,<span class="number">2</span>))</span><br></pre></td></tr></table></figure>
+<p>&#x5F53;&#x91C7;&#x7528;range&#x5C31;&#x4E00;&#x884C;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x641E;&#x5B9A;</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#&#x5947;&#x6570;&#x5E8F;&#x5217;</span></span><br><span class="line"><span class="built_in">list</span>(range(<span class="number">1</span>,<span class="number">100</span>,<span class="number">2</span>))</span><br><span class="line"><span class="preprocessor">#&#x5076;&#x6570;&#x5E8F;&#x5217;</span></span><br><span class="line"><span class="built_in">list</span>(range(<span class="number">0</span>,<span class="number">100</span>,<span class="number">2</span>))</span><br></pre></td></tr></table></figure>
 </span>
       
     </div>

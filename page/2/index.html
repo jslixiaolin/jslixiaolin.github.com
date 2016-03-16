@@ -290,7 +290,7 @@
 
       
         
-          <p>在Java中，我们经常使用%f来格式化输出浮点数，最近发现一个有趣的事。%f可以指定输出字符的宽度和小数点后的位数。<br>
+          <p>&#x5728;Java&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;%f&#x6765;&#x683C;&#x5F0F;&#x5316;&#x8F93;&#x51FA;&#x6D6E;&#x70B9;&#x6570;&#xFF0C;&#x6700;&#x8FD1;&#x53D1;&#x73B0;&#x4E00;&#x4E2A;&#x6709;&#x8DA3;&#x7684;&#x4E8B;&#x3002;%f&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x8F93;&#x51FA;&#x5B57;&#x7B26;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x5C0F;&#x6570;&#x70B9;&#x540E;&#x7684;&#x4F4D;&#x6570;&#x3002;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/java-format-float/#more" rel="contents">
               阅读全文 &raquo;
@@ -384,7 +384,7 @@
 
       
         
-          <p>1、ServletConfig<br>    ServletConfig是针对于当前Servlet的，其他servlet访问不到这个servlet的信息。一个servlet的ServletConfig对象不能被另一个servlet访问。<br>    ServletConfig常用来获取当前Servlet的配置信息<br>    ServletConfig中还维护了一个对ServletContext的引用<br>
+          <p>1&#x3001;ServletConfig<br>    ServletConfig&#x662F;&#x9488;&#x5BF9;&#x4E8E;&#x5F53;&#x524D;Servlet&#x7684;&#xFF0C;&#x5176;&#x4ED6;servlet&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#x8FD9;&#x4E2A;servlet&#x7684;&#x4FE1;&#x606F;&#x3002;&#x4E00;&#x4E2A;servlet&#x7684;ServletConfig&#x5BF9;&#x8C61;&#x4E0D;&#x80FD;&#x88AB;&#x53E6;&#x4E00;&#x4E2A;servlet&#x8BBF;&#x95EE;&#x3002;<br>    ServletConfig&#x5E38;&#x7528;&#x6765;&#x83B7;&#x53D6;&#x5F53;&#x524D;Servlet&#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;<br>    ServletConfig&#x4E2D;&#x8FD8;&#x7EF4;&#x62A4;&#x4E86;&#x4E00;&#x4E2A;&#x5BF9;ServletContext&#x7684;&#x5F15;&#x7528;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/servletcontext-servletconfig-diff/#more" rel="contents">
               阅读全文 &raquo;
@@ -478,7 +478,7 @@
 
       
         
-          <p>首先知道乱码的原因，properties文件的默认编码是iso8859-1，所以我们往里面存中文，但是取出来的时候一般不是用ISO8859-1取的，所以乱码，那么只要编码和解码一致就不会乱码了。<br>
+          <p>&#x9996;&#x5148;&#x77E5;&#x9053;&#x4E71;&#x7801;&#x7684;&#x539F;&#x56E0;&#xFF0C;properties&#x6587;&#x4EF6;&#x7684;&#x9ED8;&#x8BA4;&#x7F16;&#x7801;&#x662F;iso8859-1&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5F80;&#x91CC;&#x9762;&#x5B58;&#x4E2D;&#x6587;&#xFF0C;&#x4F46;&#x662F;&#x53D6;&#x51FA;&#x6765;&#x7684;&#x65F6;&#x5019;&#x4E00;&#x822C;&#x4E0D;&#x662F;&#x7528;ISO8859-1&#x53D6;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x4E71;&#x7801;&#xFF0C;&#x90A3;&#x4E48;&#x53EA;&#x8981;&#x7F16;&#x7801;&#x548C;&#x89E3;&#x7801;&#x4E00;&#x81F4;&#x5C31;&#x4E0D;&#x4F1A;&#x4E71;&#x7801;&#x4E86;&#x3002;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/properties-coding/#more" rel="contents">
               阅读全文 &raquo;
@@ -572,9 +572,9 @@
 
       
         
-          <p>首先，说说JSP/Servlet中的几个编码的作用：<br>1.&lt;%@pagepageEncoding=”UTF-8” %&gt;作用：</p>
+          <p>&#x9996;&#x5148;&#xFF0C;&#x8BF4;&#x8BF4;JSP/Servlet&#x4E2D;&#x7684;&#x51E0;&#x4E2A;&#x7F16;&#x7801;&#x7684;&#x4F5C;&#x7528;&#xFF1A;<br>1.&lt;%@pagepageEncoding=&#x201D;UTF-8&#x201D; %&gt;&#x4F5C;&#x7528;&#xFF1A;</p>
 <ul>
-<li>告诉JSP编译器在将JSP文件编译成Servlet时使用的编码。通常，在JSP内部定义的字符串(直接在JSP中定义，而不是从浏览器提交的数据)出现乱码时，很多都是由于该参数设置错误引起的。
+<li>&#x544A;&#x8BC9;JSP&#x7F16;&#x8BD1;&#x5668;&#x5728;&#x5C06;JSP&#x6587;&#x4EF6;&#x7F16;&#x8BD1;&#x6210;Servlet&#x65F6;&#x4F7F;&#x7528;&#x7684;&#x7F16;&#x7801;&#x3002;&#x901A;&#x5E38;&#xFF0C;&#x5728;JSP&#x5185;&#x90E8;&#x5B9A;&#x4E49;&#x7684;&#x5B57;&#x7B26;&#x4E32;(&#x76F4;&#x63A5;&#x5728;JSP&#x4E2D;&#x5B9A;&#x4E49;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x4ECE;&#x6D4F;&#x89C8;&#x5668;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;)&#x51FA;&#x73B0;&#x4E71;&#x7801;&#x65F6;&#xFF0C;&#x5F88;&#x591A;&#x90FD;&#x662F;&#x7531;&#x4E8E;&#x8BE5;&#x53C2;&#x6570;&#x8BBE;&#x7F6E;&#x9519;&#x8BEF;&#x5F15;&#x8D77;&#x7684;&#x3002;</li></ul>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/jsp-coding/#more" rel="contents">
               阅读全文 &raquo;
@@ -668,7 +668,7 @@
 
       
         
-          <p>先来看一个例子，代码如下：<br>
+          <p>&#x5148;&#x6765;&#x770B;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/java-string-demo/#more" rel="contents">
               阅读全文 &raquo;
@@ -762,7 +762,7 @@
 
       
         
-          <p>有时候我们在使用myeclipse新建文件的时候，发现new中找不到自己想要的选项，还得点other去找，可以这样设置一下：<br>
+          <p>&#x6709;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5728;&#x4F7F;&#x7528;myeclipse&#x65B0;&#x5EFA;&#x6587;&#x4EF6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53D1;&#x73B0;new&#x4E2D;&#x627E;&#x4E0D;&#x5230;&#x81EA;&#x5DF1;&#x60F3;&#x8981;&#x7684;&#x9009;&#x9879;&#xFF0C;&#x8FD8;&#x5F97;&#x70B9;other&#x53BB;&#x627E;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x8BBE;&#x7F6E;&#x4E00;&#x4E0B;&#xFF1A;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/myeclipse-setting/#more" rel="contents">
               阅读全文 &raquo;

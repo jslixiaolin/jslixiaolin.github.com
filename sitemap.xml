@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/05/mysql-install/</loc>
+    <lastmod>2016-03-16T15:02:19.404Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/01/05/java-string-demo/</loc>
     <lastmod>2016-01-05T11:14:03.033Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/05/servletcontext-servletconfig-diff/</loc>
     <lastmod>2016-01-05T11:13:40.848Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/05/mysql-install/</loc>
-    <lastmod>2016-01-05T09:42:14.380Z</lastmod>
   </url>
   
   <url>

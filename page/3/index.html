@@ -290,7 +290,7 @@
 
       
         
-          <h1 id="u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection"><a href="#u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection" class="headerlink" title="自建连接池异常$Proxy0 cannot be cast to java.sql.Connection"></a>自建连接池异常$Proxy0 cannot be cast to java.sql.Connection</h1><p>今天在网上看到一个连接池的例子，于是按照所说的自己写了一遍，其构思比较巧妙，使用代理的方法在连接关闭的时候将连接送回连接池中，<br>
+          <h1 id="u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection"><a href="#u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection" class="headerlink" title="&#x81EA;&#x5EFA;&#x8FDE;&#x63A5;&#x6C60;&#x5F02;&#x5E38;$Proxy0 cannot be cast to java.sql.Connection"></a>&#x81EA;&#x5EFA;&#x8FDE;&#x63A5;&#x6C60;&#x5F02;&#x5E38;$Proxy0 cannot be cast to java.sql.Connection</h1><p>&#x4ECA;&#x5929;&#x5728;&#x7F51;&#x4E0A;&#x770B;&#x5230;&#x4E00;&#x4E2A;&#x8FDE;&#x63A5;&#x6C60;&#x7684;&#x4F8B;&#x5B50;&#xFF0C;&#x4E8E;&#x662F;&#x6309;&#x7167;&#x6240;&#x8BF4;&#x7684;&#x81EA;&#x5DF1;&#x5199;&#x4E86;&#x4E00;&#x904D;&#xFF0C;&#x5176;&#x6784;&#x601D;&#x6BD4;&#x8F83;&#x5DE7;&#x5999;&#xFF0C;&#x4F7F;&#x7528;&#x4EE3;&#x7406;&#x7684;&#x65B9;&#x6CD5;&#x5728;&#x8FDE;&#x63A5;&#x5173;&#x95ED;&#x7684;&#x65F6;&#x5019;&#x5C06;&#x8FDE;&#x63A5;&#x9001;&#x56DE;&#x8FDE;&#x63A5;&#x6C60;&#x4E2D;&#xFF0C;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/connection-pool-exception/#more" rel="contents">
               阅读全文 &raquo;
@@ -384,7 +384,7 @@
 
       
         
-          <p>二叉树是数据结构里经常使用的一种数据结构，需要注意其和树的区别（二叉树的一个节点最多只能有2个子树，而树没这个限制），还有完全二叉树和满二叉树。<br>
+          <p>&#x4E8C;&#x53C9;&#x6811;&#x662F;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x91CC;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;&#x7684;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x5176;&#x548C;&#x6811;&#x7684;&#x533A;&#x522B;&#xFF08;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x6700;&#x591A;&#x53EA;&#x80FD;&#x6709;2&#x4E2A;&#x5B50;&#x6811;&#xFF0C;&#x800C;&#x6811;&#x6CA1;&#x8FD9;&#x4E2A;&#x9650;&#x5236;&#xFF09;&#xFF0C;&#x8FD8;&#x6709;&#x5B8C;&#x5168;&#x4E8C;&#x53C9;&#x6811;&#x548C;&#x6EE1;&#x4E8C;&#x53C9;&#x6811;&#x3002;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/algorithm-binary-tree-fml-order/#more" rel="contents">
               阅读全文 &raquo;
@@ -478,7 +478,7 @@
 
       
         
-          <p>昨天笔试有这么一个问题，<strong>去除一个字符数组的重复部分，不能开辟额外的空间。</strong><br>思路大概如下：<br>利用字符串结束符 ‘\0’,和一个额外的下标index，从而实现原来字符数组的复用。<br>
+          <p>&#x6628;&#x5929;&#x7B14;&#x8BD5;&#x6709;&#x8FD9;&#x4E48;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;<strong>&#x53BB;&#x9664;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x7684;&#x91CD;&#x590D;&#x90E8;&#x5206;&#xFF0C;&#x4E0D;&#x80FD;&#x5F00;&#x8F9F;&#x989D;&#x5916;&#x7684;&#x7A7A;&#x95F4;&#x3002;</strong><br>&#x601D;&#x8DEF;&#x5927;&#x6982;&#x5982;&#x4E0B;&#xFF1A;<br>&#x5229;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x7ED3;&#x675F;&#x7B26; &#x2018;\0&#x2019;,&#x548C;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x7684;&#x4E0B;&#x6807;index&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x539F;&#x6765;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x7684;&#x590D;&#x7528;&#x3002;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/algorithm-remove-same-string/#more" rel="contents">
               阅读全文 &raquo;
@@ -572,7 +572,7 @@
 
       
         
-          <p>最近在学习hibernate，利用其自动创建表时老是出错，<br>
+          <p>&#x6700;&#x8FD1;&#x5728;&#x5B66;&#x4E60;hibernate&#xFF0C;&#x5229;&#x7528;&#x5176;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x8868;&#x65F6;&#x8001;&#x662F;&#x51FA;&#x9519;&#xFF0C;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/05/hibernate-mysql-create-table/#more" rel="contents">
               阅读全文 &raquo;
@@ -666,7 +666,7 @@
 
       
         
-          <p>最近在实习公司的项目开发中有遇到这么一个需求：在做一个电价管理系统中，有新增电价这么一个功能，新增电价默认不生效，用户可以手动选择生效的时间，到了时间电价就自动变成生效。
+          <p>&#x6700;&#x8FD1;&#x5728;&#x5B9E;&#x4E60;&#x516C;&#x53F8;&#x7684;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x4E2D;&#x6709;&#x9047;&#x5230;&#x8FD9;&#x4E48;&#x4E00;&#x4E2A;&#x9700;&#x6C42;&#xFF1A;&#x5728;&#x505A;&#x4E00;&#x4E2A;&#x7535;&#x4EF7;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x6709;&#x65B0;&#x589E;&#x7535;&#x4EF7;&#x8FD9;&#x4E48;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#xFF0C;&#x65B0;&#x589E;&#x7535;&#x4EF7;&#x9ED8;&#x8BA4;&#x4E0D;&#x751F;&#x6548;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x624B;&#x52A8;&#x9009;&#x62E9;&#x751F;&#x6548;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5230;&#x4E86;&#x65F6;&#x95F4;&#x7535;&#x4EF7;&#x5C31;&#x81EA;&#x52A8;&#x53D8;&#x6210;&#x751F;&#x6548;&#x3002;</p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/03/oracle-procedure-job/#more" rel="contents">
               阅读全文 &raquo;
@@ -760,7 +760,7 @@
 
       
         
-          <p>非递归的层次遍历其实很简单。利用了队列先进先出的特点。<br>先将根节点入队。如果队列不为空，那么获得队首元素，对其访问。如果它的左子树不为空，那么加入队列，如果它的右子树不为空，那么加入队列。<br>
+          <p>&#x975E;&#x9012;&#x5F52;&#x7684;&#x5C42;&#x6B21;&#x904D;&#x5386;&#x5176;&#x5B9E;&#x5F88;&#x7B80;&#x5355;&#x3002;&#x5229;&#x7528;&#x4E86;&#x961F;&#x5217;&#x5148;&#x8FDB;&#x5148;&#x51FA;&#x7684;&#x7279;&#x70B9;&#x3002;<br>&#x5148;&#x5C06;&#x6839;&#x8282;&#x70B9;&#x5165;&#x961F;&#x3002;&#x5982;&#x679C;&#x961F;&#x5217;&#x4E0D;&#x4E3A;&#x7A7A;&#xFF0C;&#x90A3;&#x4E48;&#x83B7;&#x5F97;&#x961F;&#x9996;&#x5143;&#x7D20;&#xFF0C;&#x5BF9;&#x5176;&#x8BBF;&#x95EE;&#x3002;&#x5982;&#x679C;&#x5B83;&#x7684;&#x5DE6;&#x5B50;&#x6811;&#x4E0D;&#x4E3A;&#x7A7A;&#xFF0C;&#x90A3;&#x4E48;&#x52A0;&#x5165;&#x961F;&#x5217;&#xFF0C;&#x5982;&#x679C;&#x5B83;&#x7684;&#x53F3;&#x5B50;&#x6811;&#x4E0D;&#x4E3A;&#x7A7A;&#xFF0C;&#x90A3;&#x4E48;&#x52A0;&#x5165;&#x961F;&#x5217;&#x3002;<br></p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/01/03/algorithm-binary-tree-levelorder/#more" rel="contents">
               阅读全文 &raquo;
