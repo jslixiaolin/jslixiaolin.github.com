@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/03/27/unionencoding/</loc>
+    <lastmod>2016-03-26T16:37:01.169Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2016/01/05/hibernate-mysql-create-table/</loc>
+    <lastmod>2016-03-26T16:36:48.288Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/01/05/mysql-install/</loc>
     <lastmod>2016-03-16T15:35:28.133Z</lastmod>
   </url>
@@ -74,11 +84,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/05/algorithm-remove-same-string/</loc>
     <lastmod>2016-01-05T08:11:35.898Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/05/hibernate-mysql-create-table/</loc>
-    <lastmod>2016-01-05T08:07:06.765Z</lastmod>
   </url>
   
   <url>
