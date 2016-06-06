@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/2016/01/05/sql-query-all/</loc>
+    <lastmod>2016-06-06T03:48:55.282Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lixiaolin.me/2016/06/06/analytic-arithmetic-expression/</loc>
+    <lastmod>2016-06-06T03:46:18.960Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/03/27/unionencoding/</loc>
     <lastmod>2016-03-26T16:37:01.169Z</lastmod>
   </url>
@@ -39,11 +49,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/05/sublimetext-setting/</loc>
     <lastmod>2016-01-05T08:42:18.064Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/2016/01/05/sql-query-all/</loc>
-    <lastmod>2016-01-05T08:41:05.910Z</lastmod>
   </url>
   
   <url>
