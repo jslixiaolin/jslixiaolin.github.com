@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.lixiaolin.me/about/index.html</loc>
+    <lastmod>2017-03-05T16:48:51.326Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.lixiaolin.me/2016/08/08/velocity/</loc>
     <lastmod>2016-08-08T16:00:00.071Z</lastmod>
   </url>
@@ -144,11 +149,6 @@
   <url>
     <loc>http://www.lixiaolin.me/2016/01/03/login-fail-lock/</loc>
     <lastmod>2016-01-03T04:17:41.665Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.lixiaolin.me/about/index.html</loc>
-    <lastmod>2016-01-03T03:46:47.060Z</lastmod>
   </url>
   
   <url>
