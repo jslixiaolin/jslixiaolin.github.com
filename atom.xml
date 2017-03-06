@@ -3,9 +3,9 @@
   <title><![CDATA[LORRIN'S BLOG]]></title>
   <subtitle><![CDATA[Do more,think more]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.lixiaolin.me/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2016-08-08T16:00:00.071Z</updated>
-  <id>http://www.lixiaolin.me/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name><![CDATA[Lorrin]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[velocity教程]]></title>
-    <link href="http://www.lixiaolin.me/2016/08/08/velocity/"/>
-    <id>http://www.lixiaolin.me/2016/08/08/velocity/</id>
+    <link href="http://yoursite.com/2016/08/08/velocity/"/>
+    <id>http://yoursite.com/2016/08/08/velocity/</id>
     <published>2016-08-08T15:54:08.000Z</published>
     <updated>2016-08-08T16:00:00.071Z</updated>
     <content type="html"><![CDATA[<p>Velocity&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Java&#x7684;&#x6A21;&#x677F;&#x5F15;&#x64CE;&#xFF0C;&#x901A;&#x8FC7;&#x7279;&#x5B9A;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;Velocity&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5728;java&#x8BED;&#x8A00;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x754C;&#x9762;&#x548C;java&#x4EE3;&#x7801;&#x7684;&#x771F;&#x6B63;&#x5206;&#x79BB;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;velocity&#x66FF;&#x4EE3;jsp&#x7684;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;&#x4E86;(&#x5B9E;&#x9645;&#x4E0A;&#x7B14;&#x8005;&#x6240;&#x5728;&#x7684;&#x516C;&#x53F8;&#x5DF2;&#x7ECF;&#x8FD9;&#x4E48;&#x505A;&#x4E86;)&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x524D;&#x7AEF;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x53EF;&#x4EE5;&#x548C; Java &#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x540C;&#x6B65;&#x5F00;&#x53D1;&#x4E00;&#x4E2A;&#x9075;&#x5FAA; MVC &#x67B6;&#x6784;&#x7684; web &#x7AD9;&#x70B9;&#xFF0C;&#x5728;&#x5B9E;&#x9645;&#x5E94;&#x7528;&#x4E2D;&#xFF0C;velocity&#x8FD8;&#x53EF;&#x4EE5;&#x5E94;&#x7528;&#x4E8E;&#x5F88;&#x591A;&#x5176;&#x4ED6;&#x7684;&#x573A;&#x666F;.<br><a id="more"></a></p>
@@ -64,14 +64,14 @@
     
     </summary>
     
-      <category term="Velocity" scheme="http://www.lixiaolin.me/tags/Velocity/"/>
+      <category term="Velocity" scheme="http://yoursite.com/tags/Velocity/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[java爬虫之下载txt小说]]></title>
-    <link href="http://www.lixiaolin.me/2016/06/30/java-getnovel/"/>
-    <id>http://www.lixiaolin.me/2016/06/30/java-getnovel/</id>
+    <link href="http://yoursite.com/2016/06/30/java-getnovel/"/>
+    <id>http://yoursite.com/2016/06/30/java-getnovel/</id>
     <published>2016-06-30T15:10:09.000Z</published>
     <updated>2016-06-30T15:11:20.887Z</updated>
     <content type="html"><![CDATA[<p>&#x6700;&#x8FD1;&#x8FF7;&#x4E0A;&#x4E86;&#x5929;&#x8695;&#x571F;&#x8C46;&#x5199;&#x7684;&#x300A;&#x5927;&#x4E3B;&#x5BB0;&#x300B;&#x8FD9;&#x672C;&#x7384;&#x5E7B;&#x5C0F;&#x8BF4;&#xFF0C;&#x65E0;&#x5948;&#x627E;&#x4E0D;&#x5230;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;&#x3002;&#x4E8E;&#x662F;&#x5C31;&#x840C;&#x751F;&#x4E86;&#x81EA;&#x5DF1;&#x722C;&#x53D6;&#x5C0F;&#x8BF4;&#x7AE0;&#x8282;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x4EE3;&#x7801;&#x5176;&#x5B9E;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x4E3B;&#x8981;&#x5728;&#x4E8E;&#x5206;&#x6790;&#x7F51;&#x9875;&#x7ED3;&#x6784;&#x3001;&#x6B63;&#x5219;&#x5339;&#x914D;&#x4EE5;&#x53CA;&#x6587;&#x4EF6;&#x4FDD;&#x5B58;.<br><a id="more"></a></p>
@@ -94,14 +94,14 @@
     
     </summary>
     
-      <category term="java" scheme="http://www.lixiaolin.me/tags/java/"/>
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[遗传算法在自动组卷中的应用]]></title>
-    <link href="http://www.lixiaolin.me/2016/06/22/ga-generation/"/>
-    <id>http://www.lixiaolin.me/2016/06/22/ga-generation/</id>
+    <link href="http://yoursite.com/2016/06/22/ga-generation/"/>
+    <id>http://yoursite.com/2016/06/22/ga-generation/</id>
     <published>2016-06-22T12:46:50.000Z</published>
     <updated>2016-06-22T12:58:07.645Z</updated>
     <content type="html"><![CDATA[<h2 id="u9057_u4F20_u7B97_u6CD5"><a href="#u9057_u4F20_u7B97_u6CD5" class="headerlink" title="&#x9057;&#x4F20;&#x7B97;&#x6CD5;"></a>&#x9057;&#x4F20;&#x7B97;&#x6CD5;</h2><p>&#x9057;&#x4F20;&#x7B97;&#x6CD5;(Genetic Algorithm)&#x662F;&#x4E00;&#x79CD;&#x6A21;&#x62DF;&#x81EA;&#x7136;&#x754C;&#x7684;&#x8FDB;&#x5316;&#x89C4;&#x5F8B;-&#x4F18;&#x80DC;&#x52A3;&#x6C70;&#x6F14;&#x5316;&#x6765;&#x7684;&#x968F;&#x673A;&#x641C;&#x7D22;&#x7B97;&#x6CD5;&#xFF0C;&#x5176;&#x5728;&#x89E3;&#x51B3;&#x591A;&#x79CD;&#x7EA6;&#x675F;&#x6761;&#x4EF6;&#x4E0B;&#x7684;&#x6700;&#x4F18;&#x89E3;&#x8FD9;&#x7C7B;&#x95EE;&#x9898;&#x4E0A;&#x5177;&#x6709;&#x4F18;&#x79C0;&#x7684;&#x8868;&#x73B0;.</p>
@@ -169,16 +169,16 @@
     
     </summary>
     
-      <category term="Algorithm" scheme="http://www.lixiaolin.me/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[利用栈解析算术表达式]]></title>
-    <link href="http://www.lixiaolin.me/2016/06/06/analytic-arithmetic-expression/"/>
-    <id>http://www.lixiaolin.me/2016/06/06/analytic-arithmetic-expression/</id>
+    <link href="http://yoursite.com/2016/06/06/analytic-arithmetic-expression/"/>
+    <id>http://yoursite.com/2016/06/06/analytic-arithmetic-expression/</id>
     <published>2016-06-06T03:37:41.000Z</published>
     <updated>2016-06-06T03:46:18.960Z</updated>
     <content type="html"><![CDATA[<p>&#x5728;&#x7F16;&#x5199;&#x7F16;&#x8BD1;&#x5668;&#x65F6;&#x7ECF;&#x5E38;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x5BF9;&#x7B97;&#x672F;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x89E3;&#x6790;&#xFF0C;&#x7136;&#x800C;&#x5BF9;&#x4E8E;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x7B97;&#x6CD5;&#x6765;&#x8BF4;&#x5982;&#x679C;&#x76F4;&#x63A5;&#x6C42;&#x89E3;&#x7B97;&#x672F;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#xFF0C;&#x8FD8;&#x662F;&#x76F8;&#x5F53;&#x56F0;&#x96BE;&#x7684;&#x3002;&#x56E0;&#x6B64;&#x89E3;&#x6790;&#x7B97;&#x672F;&#x8868;&#x8FBE;&#x5F0F;&#x7ECF;&#x5E38;&#x5206;&#x6B65;&#x5B9E;&#x73B0;&#xFF1A;<br>1.&#x5C06;&#x4E2D;&#x7F00;&#x7684;&#x7B97;&#x672F;&#x8868;&#x8FBE;&#x5F0F;&#x8F6C;&#x6362;&#x4E3A;&#x540E;&#x7F00;&#x8868;&#x8FBE;&#x5F0F;<br>2.&#x8BA1;&#x7B97;&#x540E;&#x7F00;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;<br><a id="more"></a><br>&#x5728;&#x6B63;&#x5F0F;&#x4ECB;&#x7ECD;&#x7B97;&#x6CD5;&#x7684;&#x5B9E;&#x73B0;&#x4E4B;&#x524D;&#xFF0C;&#x5148;&#x4ECB;&#x7ECD;&#x4E00;&#x70B9;&#x6709;&#x5173;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;</p>
@@ -357,14 +357,14 @@
     
     </summary>
     
-      <category term="数据结构" scheme="http://www.lixiaolin.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[使用过滤器统一全站编码]]></title>
-    <link href="http://www.lixiaolin.me/2016/03/27/unionencoding/"/>
-    <id>http://www.lixiaolin.me/2016/03/27/unionencoding/</id>
+    <link href="http://yoursite.com/2016/03/27/unionencoding/"/>
+    <id>http://yoursite.com/2016/03/27/unionencoding/</id>
     <published>2016-03-26T16:24:48.000Z</published>
     <updated>2016-03-26T16:37:01.169Z</updated>
     <content type="html"><![CDATA[<p>&#x5728;web&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x8FC7;&#x6EE4;&#x5668;&#x662F;&#x4E00;&#x9879;&#x975E;&#x5E38;&#x6FC0;&#x52A8;&#x4EBA;&#x5FC3;&#x7684;&#x6280;&#x672F;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x5BF9;&#x6240;&#x6709;&#x7684;&#x8BBF;&#x95EE;&#x8FDB;&#x884C;&#x63A7;&#x5236;&#xFF0C;&#x901A;&#x8FC7;&#x8FD9;&#x4E9B;&#x7279;&#x6027;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x5B9E;&#x73B0;&#x5F88;&#x591A;&#x7684;&#x9700;&#x6C42;&#x3002;&#x5E38;&#x89C1;&#x7684;&#x6709;&#x8BB0;&#x4F4F;&#x7528;&#x6237;&#x540D;&#x5BC6;&#x7801;&#x3001;&#x7EDF;&#x4E00;&#x5168;&#x7AD9;&#x7F16;&#x7801;&#x7B49;&#x7B49;&#x3002;&#x672C;&#x6587;&#x5C31;&#x5229;&#x7528;&#x8FC7;&#x6EE4;&#x5668;+&#x88C5;&#x9970;&#x5668;&#x5B9E;&#x73B0;&#x7EDF;&#x4E00;&#x5168;&#x7AD9;&#x7F16;&#x7801;&#x505A;&#x7B80;&#x5355;&#x7684;&#x4ECB;&#x7ECD;&#x3002;<br><a id="more"></a><br>&#x9996;&#x5148;&#x9700;&#x8981;&#x5BF9;jsp&#x548C;servlet&#x4E2D;&#x7684;&#x7F16;&#x7801;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x4E86;&#x89E3;&#xFF0C;&#x5177;&#x4F53;&#x53EF;&#x4EE5;&#x770B;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;:<a href="http://lixiaolin.me/2016/01/05/jsp-coding/" target="_blank" rel="external">JSP&#x7F16;&#x7801;&#x4EE5;&#x53CA;&#x4E71;&#x7801;&#x89E3;&#x51B3;&#x603B;&#x7ED3;</a>&#x3002;<br>&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">EncodingFilter</span> <span class="keyword">implements</span> <span class="title">Filter</span></span>{</span><br><span class="line">  <span class="comment">// filter&#x521D;&#x59CB;&#x5316;&#x53C2;&#x6570;</span></span><br><span class="line">  <span class="keyword">private</span> FilterConfig config ;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Log log = LogFactory.getLog(EncodingFilter.class);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">destroy</span><span class="params">()</span> </span>{</span><br><span class="line">  <span class="comment">// do nothing</span></span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">doFilter</span><span class="params">(ServletRequest request, ServletResponse response,</span><br><span class="line">      FilterChain chain)</span> <span class="keyword">throws</span> IOException, ServletException </span>{</span><br><span class="line">    <span class="comment">// &#x83B7;&#x53D6;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x7801;</span></span><br><span class="line">    String encode = config.getInitParameter(<span class="string">&quot;encode&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (encode == <span class="keyword">null</span>){</span><br><span class="line">      encode = <span class="string">&quot;utf-8&quot;</span>;</span><br><span class="line">    }</span><br><span class="line">    HttpServletRequest req =(HttpServletRequest) request;</span><br><span class="line">    HttpServletResponse resp = (HttpServletResponse) response;</span><br><span class="line">    req.setCharacterEncoding(<span class="string">&quot;utf-8&quot;</span>);</span><br><span class="line">    resp.setContentType(<span class="string">&quot;text/html;charset=utf-8&quot;</span>);</span><br><span class="line">    <span class="comment">// &#x4F7F;&#x7528;&#x88C5;&#x9970;&#x5668;</span></span><br><span class="line">    MyReq myReq = <span class="keyword">new</span> MyReq(req);</span><br><span class="line">    chain.doFilter(myReq, resp);</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">(FilterConfig filterConfig)</span> <span class="keyword">throws</span> ServletException </span>{</span><br><span class="line">    <span class="keyword">this</span>.config = filterConfig;</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span><br><span class="line">   * &#x88C5;&#x9970;&#x5668;&#x6A21;&#x5F0F;</span><br><span class="line">   * <span class="doctag">@author</span>: xlli</span><br><span class="line">   * <span class="doctag">@CreateDate</span>: 2016-3-27 &#x4E0A;&#x5348;12:22:01</span><br><span class="line">   * <span class="doctag">@version</span>: 1.0</span><br><span class="line">   */</span></span><br><span class="line">  <span class="class"><span class="keyword">class</span> <span class="title">MyReq</span> <span class="keyword">extends</span> <span class="title">HttpServletRequestWrapper</span></span>{</span><br><span class="line">    <span class="keyword">private</span> HttpServletRequest req;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MyReq</span><span class="params">(HttpServletRequest request)</span> </span>{</span><br><span class="line">      <span class="keyword">super</span>(request);</span><br><span class="line">      <span class="keyword">this</span>.req = request;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="function">String <span class="title">getParameter</span><span class="params">(String name)</span> </span>{</span><br><span class="line">      <span class="comment">// post&#x8BF7;&#x6C42;</span></span><br><span class="line">      <span class="keyword">if</span> (req.getMethod().equalsIgnoreCase(<span class="string">&quot;post&quot;</span>)){</span><br><span class="line">        <span class="function"><span class="keyword">return</span> req.<span class="title">getParameter</span><span class="params">(name)</span></span>;</span><br><span class="line">      }</span><br><span class="line">      <span class="comment">// get&#x8BF7;&#x6C42;</span></span><br><span class="line">      String value = req.getParameter(name);</span><br><span class="line">      <span class="keyword">if</span> (value == <span class="keyword">null</span>){</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">      }</span><br><span class="line">      <span class="keyword">try</span> {</span><br><span class="line">        value = <span class="keyword">new</span> String(req.getParameter(name).getBytes(<span class="string">&quot;iso8859-1&quot;</span>), <span class="string">&quot;utf-8&quot;</span>);</span><br><span class="line">      } <span class="keyword">catch</span> (UnsupportedEncodingException e) {</span><br><span class="line">        log.<span class="keyword">error</span>(<span class="keyword">new</span> Date().getTime() + <span class="string">&quot;EncodingFilter&#x7F16;&#x7801;&#x8F6C;&#x5316;&#x5931;&#x8D25;&quot;</span>,e);</span><br><span class="line">      };</span><br><span class="line">      <span class="keyword">return</span> value;</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
@@ -374,14 +374,14 @@
     
     </summary>
     
-      <category term="encode" scheme="http://www.lixiaolin.me/tags/encode/"/>
+      <category term="encode" scheme="http://yoursite.com/tags/encode/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[MySQL安装和SQL语句入门]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/mysql-install/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/mysql-install/</id>
+    <link href="http://yoursite.com/2016/01/05/mysql-install/"/>
+    <id>http://yoursite.com/2016/01/05/mysql-install/</id>
     <published>2016-01-05T08:36:41.000Z</published>
     <updated>2016-03-16T15:35:28.133Z</updated>
     <content type="html"><![CDATA[<p><img src="http://7xryc7.com1.z0.glb.clouddn.com/16-3-16/63045321.jpg =100x20" alt=""><br>&#x7B2C;&#x4E00;&#x6B21;&#x5199;&#x535A;&#x5BA2;&#xFF0C;&#x6B63;&#x597D;&#x6700;&#x8FD1;&#x5728;&#x5B66;&#x4E60;mysql&#xFF0C;&#x5C31;&#x7531;&#x6D45;&#x5165;&#x6DF1;&#xFF0C;&#x5148;&#x5199;&#x4E00;&#x904D;&#x5165;&#x95E8;&#x7EA7;&#x522B;&#x7684;&#x5427;&#xFF1A;<a id="more"></a></p>
@@ -522,16 +522,16 @@
     
     </summary>
     
-      <category term="MYSQL" scheme="http://www.lixiaolin.me/tags/MYSQL/"/>
+      <category term="MYSQL" scheme="http://yoursite.com/tags/MYSQL/"/>
     
-      <category term="SQL" scheme="http://www.lixiaolin.me/tags/SQL/"/>
+      <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[查询选修全部课程的学生姓名和所属单位]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/sql-query-all/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/sql-query-all/</id>
+    <link href="http://yoursite.com/2016/01/05/sql-query-all/"/>
+    <id>http://yoursite.com/2016/01/05/sql-query-all/</id>
     <published>2016-01-05T08:35:43.000Z</published>
     <updated>2016-06-06T03:48:55.282Z</updated>
     <content type="html"><![CDATA[<p>&#x5728;&#x89E3;&#x7B54;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E4B;&#x524D;&#x5148;&#x4E3E;&#x4E00;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#xFF0C;&#x73B0;&#x6709;3&#x5F20;&#x8868;<br>S (SI,SN,SD,SA)   SI,SN,SD,SA &#x5206;&#x522B;&#x4EE3;&#x8868;&#x5B66;&#x53F7;&#x3001;&#x5B66;&#x5458;&#x59D3;&#x540D;&#x3001;&#x6240;&#x5C5E;&#x5355;&#x4F4D;&#x3001;&#x5B66;&#x5458;&#x5E74;&#x9F84;<br>C (CI,CN )     CI,CN &#x5206;&#x522B;&#x4EE3;&#x8868;&#x8BFE;&#x7A0B;&#x7F16;&#x53F7;&#x3001;&#x8BFE;&#x7A0B;&#x540D;&#x79F0;<br>SC ( SI,CI,G )   SI,CI,G &#x5206;&#x522B;&#x4EE3;&#x8868;&#x5B66;&#x53F7;&#x3001;&#x6240;&#x9009;&#x4FEE;&#x7684;&#x8BFE;&#x7A0B;&#x7F16;&#x53F7;&#x3001;&#x5B66;&#x4E60;&#x6210;&#x7EE9;<br><a id="more"></a><br>&#x67E5;&#x770B;SC&#x8868;&#x4E2D;&#x7684;&#x5168;&#x90E8;&#x4FE1;&#x606F;&#x5982;&#x4E0B;&#xFF1A;</p>
@@ -552,14 +552,14 @@
     
     </summary>
     
-      <category term="SQL" scheme="http://www.lixiaolin.me/tags/SQL/"/>
+      <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Oracle中序列的使用]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/oracle-sequence/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/oracle-sequence/</id>
+    <link href="http://yoursite.com/2016/01/05/oracle-sequence/"/>
+    <id>http://yoursite.com/2016/01/05/oracle-sequence/</id>
     <published>2016-01-05T08:33:53.000Z</published>
     <updated>2016-01-05T08:34:57.765Z</updated>
     <content type="html"><![CDATA[<p>oracle&#x4E2D;&#x5E8F;&#x5217;&#x53EF;&#x4EE5;&#x81EA;&#x52A8;&#x4EA7;&#x751F;&#x9012;&#x589E;&#x6216;&#x8005;&#x9012;&#x51CF;&#x7684;&#x5E8F;&#x5217;&#xFF0C;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x8868;&#x7684;&#x552F;&#x4E00;&#x4E3B;&#x952E;ID&#x4E00;&#x822C;&#x90FD;&#x662F;&#x5E8F;&#x5217;&#x4EA7;&#x751F;&#x7684;&#x3002;<br><a id="more"></a><br>sql&#x8BED;&#x53E5;&#x5982;&#x4E0B;&#xFF1A;</p>
@@ -571,14 +571,14 @@
     
     </summary>
     
-      <category term="ORACLE" scheme="http://www.lixiaolin.me/tags/ORACLE/"/>
+      <category term="ORACLE" scheme="http://yoursite.com/tags/ORACLE/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Java和js中小数和百分数的互相转换]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/decimal-percent-change/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/decimal-percent-change/</id>
+    <link href="http://yoursite.com/2016/01/05/decimal-percent-change/"/>
+    <id>http://yoursite.com/2016/01/05/decimal-percent-change/</id>
     <published>2016-01-05T08:32:14.000Z</published>
     <updated>2016-01-05T08:46:07.307Z</updated>
     <content type="html"><![CDATA[<h2 id="u4E00_u3001_u767E_u5206_u6570_u8F6C_u5C0F_u6570"><a href="#u4E00_u3001_u767E_u5206_u6570_u8F6C_u5C0F_u6570" class="headerlink" title="&#x4E00;&#x3001;&#x767E;&#x5206;&#x6570;&#x8F6C;&#x5C0F;&#x6570;"></a>&#x4E00;&#x3001;&#x767E;&#x5206;&#x6570;&#x8F6C;&#x5C0F;&#x6570;</h2><p>   Java&#x4E2D;&#xFF1A;<a id="more"></a><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">float</span> <span class="title">changePercentToPoint</span><span class="params">(String percent)</span> </span>{</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> Float(percent.substring(<span class="number">0</span>, percent.indexOf(<span class="string">&quot;%&quot;</span>))) / <span class="number">100</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p>
@@ -591,16 +591,16 @@
     
     </summary>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Sublime Text2 配置tab为4个空格]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/sublimetext-setting/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/sublimetext-setting/</id>
+    <link href="http://yoursite.com/2016/01/05/sublimetext-setting/"/>
+    <id>http://yoursite.com/2016/01/05/sublimetext-setting/</id>
     <published>2016-01-05T08:29:07.000Z</published>
     <updated>2016-01-05T08:42:18.064Z</updated>
     <content type="html"><![CDATA[<p>&#x5728;&#x9876;&#x90E8;&#x83DC;&#x5355;&#x680F;&#x627E;&#x5230;<br>Preference-&gt;Settings-defalut:<br><a id="more"></a><br>&#x6DFB;&#x52A0;&#x8FD9;&#x4E24;&#x884C;&#xFF1A;</p>
@@ -612,16 +612,16 @@
     
     </summary>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
-      <category term="Sublimetext" scheme="http://www.lixiaolin.me/tags/Sublimetext/"/>
+      <category term="Sublimetext" scheme="http://yoursite.com/tags/Sublimetext/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[python中range函数的使用.]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/python-func-range/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/python-func-range/</id>
+    <link href="http://yoursite.com/2016/01/05/python-func-range/"/>
+    <id>http://yoursite.com/2016/01/05/python-func-range/</id>
     <published>2016-01-05T08:27:42.000Z</published>
     <updated>2016-01-05T08:28:24.637Z</updated>
     <content type="html"><![CDATA[<p>range()&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x4EA7;&#x751F;&#x6574;&#x6570;&#x5E8F;&#x5217;&#xFF0C;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x6B65;&#x957F;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x80FD;&#x5F88;&#x65B9;&#x4FBF;&#x4E86;&#x3002;<br><a id="more"></a><br>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;<br>range(start&#xFF0C; end&#xFF0C; scan):<br>start&#xFF1A;&#x8BA1;&#x6570;&#x4ECE;start&#x5F00;&#x59CB;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;0&#xFF0C;range(2)=range(0,2)<br>end&#xFF1A; &#x8BA1;&#x6570;&#x5230;end&#x7ED3;&#x675F;  list(range(2))&#x4E3A;[0,1]  &#x6CE8;&#x610F;&#x5305;&#x5DE6;&#x4E0D;&#x5305;&#x53F3;&#xFF01;<br>scan:  &#x8BA1;&#x6570;&#x7684;&#x6B65;&#x957F;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;1&#xFF0C;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;   &#x6BD4;&#x5982;range(0,4,2)</p>
@@ -635,14 +635,14 @@
     
     </summary>
     
-      <category term="Python" scheme="http://www.lixiaolin.me/tags/Python/"/>
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[详解Java中格式化输出浮点数]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/java-format-float/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/java-format-float/</id>
+    <link href="http://yoursite.com/2016/01/05/java-format-float/"/>
+    <id>http://yoursite.com/2016/01/05/java-format-float/</id>
     <published>2016-01-05T08:26:10.000Z</published>
     <updated>2016-01-05T08:51:41.090Z</updated>
     <content type="html"><![CDATA[<p>&#x5728;Java&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;%f&#x6765;&#x683C;&#x5F0F;&#x5316;&#x8F93;&#x51FA;&#x6D6E;&#x70B9;&#x6570;&#xFF0C;&#x6700;&#x8FD1;&#x53D1;&#x73B0;&#x4E00;&#x4E2A;&#x6709;&#x8DA3;&#x7684;&#x4E8B;&#x3002;%f&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x8F93;&#x51FA;&#x5B57;&#x7B26;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x5C0F;&#x6570;&#x70B9;&#x540E;&#x7684;&#x4F4D;&#x6570;&#x3002;<br><a id="more"></a><br>1&#x3001;&#x53EA;&#x6307;&#x5B9A;&#x4E86;&#x6574;&#x4E2A;&#x8F93;&#x51FA;&#x7684;&#x5BBD;&#x5EA6;<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{</span><br><span class="line">    <span class="keyword">double</span> x=<span class="number">0.123456789</span>;</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;%10f&quot;</span>,x);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;%9f&quot;</span>,x);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;%8f&quot;</span>,x);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;%7f&quot;</span>,x);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;%4f&quot;</span>,x);</span><br><span class="line">    System.out.<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">  }</span><br></pre></td></tr></table></figure></p>
@@ -656,16 +656,16 @@
     
     </summary>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[ServletConfig和ServletContext的区别]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/servletcontext-servletconfig-diff/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/servletcontext-servletconfig-diff/</id>
+    <link href="http://yoursite.com/2016/01/05/servletcontext-servletconfig-diff/"/>
+    <id>http://yoursite.com/2016/01/05/servletcontext-servletconfig-diff/</id>
     <published>2016-01-05T08:22:31.000Z</published>
     <updated>2016-01-05T11:13:40.848Z</updated>
     <content type="html"><![CDATA[<p>1&#x3001;ServletConfig<br>    ServletConfig&#x662F;&#x9488;&#x5BF9;&#x4E8E;&#x5F53;&#x524D;Servlet&#x7684;&#xFF0C;&#x5176;&#x4ED6;servlet&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#x8FD9;&#x4E2A;servlet&#x7684;&#x4FE1;&#x606F;&#x3002;&#x4E00;&#x4E2A;servlet&#x7684;ServletConfig&#x5BF9;&#x8C61;&#x4E0D;&#x80FD;&#x88AB;&#x53E6;&#x4E00;&#x4E2A;servlet&#x8BBF;&#x95EE;&#x3002;<br>    ServletConfig&#x5E38;&#x7528;&#x6765;&#x83B7;&#x53D6;&#x5F53;&#x524D;Servlet&#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;<br>    ServletConfig&#x4E2D;&#x8FD8;&#x7EF4;&#x62A4;&#x4E86;&#x4E00;&#x4E2A;&#x5BF9;ServletContext&#x7684;&#x5F15;&#x7528;<br><a id="more"></a><br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#xFF1A;</span><br><span class="line">&lt;servlet&gt;</span><br><span class="line">    &lt;description&gt;This <span class="keyword">is</span> <span class="keyword">the</span> description <span class="keyword">of</span> <span class="keyword">my</span> J2EE component&lt;/description&gt;</span><br><span class="line">    &lt;display-<span class="property">name</span>&gt;This <span class="keyword">is</span> <span class="keyword">the</span> display <span class="property">name</span> <span class="keyword">of</span> <span class="keyword">my</span> J2EE component&lt;/display-<span class="property">name</span>&gt;</span><br><span class="line">    &lt;servlet-<span class="property">name</span>&gt;ServletConfigTest&lt;/servlet-<span class="property">name</span>&gt;</span><br><span class="line">    &lt;servlet-<span class="type">class</span>&gt;com.lxl.servlet.ServletConfigTest&lt;/servlet-<span class="type">class</span>&gt;</span><br><span class="line">    &lt;init-param&gt;</span><br><span class="line">      &lt;param-<span class="property">name</span>&gt;<span class="property">name</span>&lt;/param-<span class="property">name</span>&gt;</span><br><span class="line">      &lt;param-value&gt;value&lt;/param-value&gt;</span><br><span class="line">    &lt;/init-param&gt;</span><br><span class="line">    &lt;init-param&gt;</span><br><span class="line">       &lt;param-<span class="property">name</span>&gt;password&lt;/param-<span class="property">name</span>&gt;</span><br><span class="line">       &lt;param-value&gt;<span class="number">791341891</span>&lt;/param-value&gt;</span><br><span class="line">    &lt;/init-param&gt;</span><br><span class="line">  &lt;/servlet&gt;</span><br><span class="line"></span><br><span class="line">Servlet1&#x4E2D;&#x83B7;&#x53D6;&#x5F53;&#x524D;servlet&#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;:</span><br><span class="line">Enumeration&lt;String&gt; enu=this.getServletConfig().getInitParameterNames();</span><br><span class="line">    <span class="keyword">while</span>(enu.hasMoreElements()){</span><br><span class="line">      String <span class="property">name</span>=enu.nextElement();</span><br><span class="line">      String value=config.getInitParameter(<span class="property">name</span>);</span><br><span class="line">      response.getWriter().<span class="command">write</span>(<span class="string">&quot;&lt;br&gt;name:&quot;</span>+<span class="property">name</span>+<span class="string">&quot; value:&quot;</span>+value+<span class="string">&quot;&lt;/br&gt;&quot;</span>);</span><br><span class="line">    }</span><br></pre></td></tr></table></figure></p>
@@ -678,16 +678,16 @@
     
     </summary>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
-      <category term="Servlet" scheme="http://www.lixiaolin.me/tags/Servlet/"/>
+      <category term="Servlet" scheme="http://yoursite.com/tags/Servlet/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[解决properties文件乱码问题]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/properties-coding/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/properties-coding/</id>
+    <link href="http://yoursite.com/2016/01/05/properties-coding/"/>
+    <id>http://yoursite.com/2016/01/05/properties-coding/</id>
     <published>2016-01-05T08:20:53.000Z</published>
     <updated>2016-01-05T08:21:54.249Z</updated>
     <content type="html"><![CDATA[<p>&#x9996;&#x5148;&#x77E5;&#x9053;&#x4E71;&#x7801;&#x7684;&#x539F;&#x56E0;&#xFF0C;properties&#x6587;&#x4EF6;&#x7684;&#x9ED8;&#x8BA4;&#x7F16;&#x7801;&#x662F;iso8859-1&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5F80;&#x91CC;&#x9762;&#x5B58;&#x4E2D;&#x6587;&#xFF0C;&#x4F46;&#x662F;&#x53D6;&#x51FA;&#x6765;&#x7684;&#x65F6;&#x5019;&#x4E00;&#x822C;&#x4E0D;&#x662F;&#x7528;ISO8859-1&#x53D6;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x4E71;&#x7801;&#xFF0C;&#x90A3;&#x4E48;&#x53EA;&#x8981;&#x7F16;&#x7801;&#x548C;&#x89E3;&#x7801;&#x4E00;&#x81F4;&#x5C31;&#x4E0D;&#x4F1A;&#x4E71;&#x7801;&#x4E86;&#x3002;<br><a id="more"></a><br>1&#x3001;&#x76F4;&#x63A5;&#x5728;Java&#x6587;&#x4EF6;&#x4E2D;&#x4FEE;&#x6539;</p>
@@ -702,14 +702,14 @@
     
     </summary>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[JSP编码以及乱码解决总结]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/jsp-coding/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/jsp-coding/</id>
+    <link href="http://yoursite.com/2016/01/05/jsp-coding/"/>
+    <id>http://yoursite.com/2016/01/05/jsp-coding/</id>
     <published>2016-01-05T08:19:31.000Z</published>
     <updated>2016-01-05T08:20:16.617Z</updated>
     <content type="html"><![CDATA[<p>&#x9996;&#x5148;&#xFF0C;&#x8BF4;&#x8BF4;JSP/Servlet&#x4E2D;&#x7684;&#x51E0;&#x4E2A;&#x7F16;&#x7801;&#x7684;&#x4F5C;&#x7528;&#xFF1A;<br>1.&lt;%@pagepageEncoding=&#x201D;UTF-8&#x201D; %&gt;&#x4F5C;&#x7528;&#xFF1A;</p>
@@ -753,16 +753,16 @@
     
     </summary>
     
-      <category term="JSP" scheme="http://www.lixiaolin.me/tags/JSP/"/>
+      <category term="JSP" scheme="http://yoursite.com/tags/JSP/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[java String的经典问题(new String() ,String )]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/java-string-demo/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/java-string-demo/</id>
+    <link href="http://yoursite.com/2016/01/05/java-string-demo/"/>
+    <id>http://yoursite.com/2016/01/05/java-string-demo/</id>
     <published>2016-01-05T08:17:56.000Z</published>
     <updated>2016-01-05T11:14:03.033Z</updated>
     <content type="html"><![CDATA[<p>&#x5148;&#x6765;&#x770B;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;<br><a id="more"></a></p>
@@ -781,16 +781,16 @@
     
     </summary>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[myeclipse new 后面的菜单设置]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/myeclipse-setting/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/myeclipse-setting/</id>
+    <link href="http://yoursite.com/2016/01/05/myeclipse-setting/"/>
+    <id>http://yoursite.com/2016/01/05/myeclipse-setting/</id>
     <published>2016-01-05T08:16:21.000Z</published>
     <updated>2016-01-05T08:17:07.614Z</updated>
     <content type="html"><![CDATA[<p>&#x6709;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5728;&#x4F7F;&#x7528;myeclipse&#x65B0;&#x5EFA;&#x6587;&#x4EF6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53D1;&#x73B0;new&#x4E2D;&#x627E;&#x4E0D;&#x5230;&#x81EA;&#x5DF1;&#x60F3;&#x8981;&#x7684;&#x9009;&#x9879;&#xFF0C;&#x8FD8;&#x5F97;&#x70B9;other&#x53BB;&#x627E;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x8BBE;&#x7F6E;&#x4E00;&#x4E0B;&#xFF1A;<br><a id="more"></a><br>window -&gt; Customize Perspective -&gt; menu Visibility -&gt; file -&gt; new  &#x7136;&#x540E;&#x9009;&#x62E9;&#x81EA;&#x5DF1;&#x60F3;&#x8981;&#x7684;&#x5C31;&#x597D;&#x4E86;<br>&#x5982;&#x56FE;</p>
@@ -801,16 +801,16 @@
     
     </summary>
     
-      <category term="Myeclipse" scheme="http://www.lixiaolin.me/tags/Myeclipse/"/>
+      <category term="Myeclipse" scheme="http://yoursite.com/tags/Myeclipse/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[自建连接池异常]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/connection-pool-exception/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/connection-pool-exception/</id>
+    <link href="http://yoursite.com/2016/01/05/connection-pool-exception/"/>
+    <id>http://yoursite.com/2016/01/05/connection-pool-exception/</id>
     <published>2016-01-05T08:14:35.000Z</published>
     <updated>2016-01-05T08:15:38.884Z</updated>
     <content type="html"><![CDATA[<h1 id="u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection"><a href="#u81EA_u5EFA_u8FDE_u63A5_u6C60_u5F02_u5E38_24Proxy0_cannot_be_cast_to_java-sql-Connection" class="headerlink" title="&#x81EA;&#x5EFA;&#x8FDE;&#x63A5;&#x6C60;&#x5F02;&#x5E38;$Proxy0 cannot be cast to java.sql.Connection"></a>&#x81EA;&#x5EFA;&#x8FDE;&#x63A5;&#x6C60;&#x5F02;&#x5E38;$Proxy0 cannot be cast to java.sql.Connection</h1><p>&#x4ECA;&#x5929;&#x5728;&#x7F51;&#x4E0A;&#x770B;&#x5230;&#x4E00;&#x4E2A;&#x8FDE;&#x63A5;&#x6C60;&#x7684;&#x4F8B;&#x5B50;&#xFF0C;&#x4E8E;&#x662F;&#x6309;&#x7167;&#x6240;&#x8BF4;&#x7684;&#x81EA;&#x5DF1;&#x5199;&#x4E86;&#x4E00;&#x904D;&#xFF0C;&#x5176;&#x6784;&#x601D;&#x6BD4;&#x8F83;&#x5DE7;&#x5999;&#xFF0C;&#x4F7F;&#x7528;&#x4EE3;&#x7406;&#x7684;&#x65B9;&#x6CD5;&#x5728;&#x8FDE;&#x63A5;&#x5173;&#x95ED;&#x7684;&#x65F6;&#x5019;&#x5C06;&#x8FDE;&#x63A5;&#x9001;&#x56DE;&#x8FDE;&#x63A5;&#x6C60;&#x4E2D;&#xFF0C;<br><a id="more"></a>&#x4E3B;&#x8981;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
@@ -826,18 +826,18 @@
     
     </summary>
     
-      <category term="JAVA" scheme="http://www.lixiaolin.me/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
     
-      <category term="MYSQL" scheme="http://www.lixiaolin.me/tags/MYSQL/"/>
+      <category term="MYSQL" scheme="http://yoursite.com/tags/MYSQL/"/>
     
-      <category term="SKILL" scheme="http://www.lixiaolin.me/tags/SKILL/"/>
+      <category term="SKILL" scheme="http://yoursite.com/tags/SKILL/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[algorithm-binary-tree-fml-order]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/algorithm-binary-tree-fml-order/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/algorithm-binary-tree-fml-order/</id>
+    <link href="http://yoursite.com/2016/01/05/algorithm-binary-tree-fml-order/"/>
+    <id>http://yoursite.com/2016/01/05/algorithm-binary-tree-fml-order/</id>
     <published>2016-01-05T08:12:45.000Z</published>
     <updated>2016-01-05T08:13:47.413Z</updated>
     <content type="html"><![CDATA[<p>&#x4E8C;&#x53C9;&#x6811;&#x662F;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x91CC;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;&#x7684;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x5176;&#x548C;&#x6811;&#x7684;&#x533A;&#x522B;&#xFF08;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x6700;&#x591A;&#x53EA;&#x80FD;&#x6709;2&#x4E2A;&#x5B50;&#x6811;&#xFF0C;&#x800C;&#x6811;&#x6CA1;&#x8FD9;&#x4E2A;&#x9650;&#x5236;&#xFF09;&#xFF0C;&#x8FD8;&#x6709;&#x5B8C;&#x5168;&#x4E8C;&#x53C9;&#x6811;&#x548C;&#x6EE1;&#x4E8C;&#x53C9;&#x6811;&#x3002;<br><a id="more"></a><br>&#x521B;&#x5EFA;&#x5982;&#x4E0B;&#x56FE;&#x7684;&#x4E00;&#x9897;&#x4E8C;&#x53C9;&#x6811;&#xFF1A;</p>
@@ -854,16 +854,16 @@
     
     </summary>
     
-      <category term="Algorithm" scheme="http://www.lixiaolin.me/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
     
-      <category term="BinaryTree" scheme="http://www.lixiaolin.me/tags/BinaryTree/"/>
+      <category term="BinaryTree" scheme="http://yoursite.com/tags/BinaryTree/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[去除字符串重复部分]]></title>
-    <link href="http://www.lixiaolin.me/2016/01/05/algorithm-remove-same-string/"/>
-    <id>http://www.lixiaolin.me/2016/01/05/algorithm-remove-same-string/</id>
+    <link href="http://yoursite.com/2016/01/05/algorithm-remove-same-string/"/>
+    <id>http://yoursite.com/2016/01/05/algorithm-remove-same-string/</id>
     <published>2016-01-05T08:10:28.000Z</published>
     <updated>2016-01-05T08:11:35.898Z</updated>
     <content type="html"><![CDATA[<p>&#x6628;&#x5929;&#x7B14;&#x8BD5;&#x6709;&#x8FD9;&#x4E48;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;<strong>&#x53BB;&#x9664;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x7684;&#x91CD;&#x590D;&#x90E8;&#x5206;&#xFF0C;&#x4E0D;&#x80FD;&#x5F00;&#x8F9F;&#x989D;&#x5916;&#x7684;&#x7A7A;&#x95F4;&#x3002;</strong><br>&#x601D;&#x8DEF;&#x5927;&#x6982;&#x5982;&#x4E0B;&#xFF1A;<br>&#x5229;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x7ED3;&#x675F;&#x7B26; &#x2018;\0&#x2019;,&#x548C;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x7684;&#x4E0B;&#x6807;index&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x539F;&#x6765;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#x7684;&#x590D;&#x7528;&#x3002;<br><a id="more"></a><br>1&#x3001;&#x5BF9;&#x6570;&#x7EC4;&#x904D;&#x5386;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x4E3A;&#x2019;\0&#x2019;&#xFF0C;&#x505A;&#x7B2C;&#x4E8C;&#x6B65;<br>2&#x3001;&#x5C06;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x7684;&#x503C;&#x8D4B;&#x7ED9;&#x4E0B;&#x6807;&#x4E3A;index&#x7684;&#x6570;&#x7EC4;&#xFF0C;index&#x5F80;&#x540E;&#x79FB;&#x52A8;&#x4E00;&#x4F4D;<br>3&#x3001;&#x5BF9;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x4E4B;&#x540E;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x904D;&#x5386;&#xFF0C;&#x5982;&#x679C;&#x78B0;&#x5230;&#x548C;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x5C06;&#x5176;&#x7F6E;&#x4E3A; &#x2018;\0&#x2019;<br>4&#x3001;&#x5BF9;&#x6570;&#x7EC4;&#x904D;&#x5386;&#x7ED3;&#x675F;&#xFF0C;index&#x5BF9;&#x5E94;&#x7684;&#x6570;&#x7EC4;&#x503C;&#x7F6E; &#x2018;\0&#x2019;<br>5&#x3001;&#x8FD9;&#x65F6;&#x5019;&#x5C31;&#x5F97;&#x5230;&#x4E86;&#x53BB;&#x91CD;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x7EC4;&#xFF0C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x4E3A;index</p>
@@ -876,7 +876,7 @@
     
     </summary>
     
-      <category term="algorithm" scheme="http://www.lixiaolin.me/tags/algorithm/"/>
+      <category term="algorithm" scheme="http://yoursite.com/tags/algorithm/"/>
     
   </entry>
   
